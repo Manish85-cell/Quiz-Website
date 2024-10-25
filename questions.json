@@ -391,5 +391,173 @@
         ],
         "correct": 2,
         "points": 2
+    },
+     {
+        "question": "Which of the following is not true about creative thinking?",
+        "answers": [
+            "It is the ability to consider something in a new way",
+            "It is not a skill anybody can develop",
+            "It is the process of nurturing our imagination",
+            "It is all about developing innovative solutions to problems"
+        ],
+        "correct": 1,
+        "points": 2
+    },
+    {
+        "question": "Which of the following is not a causal factor for extrinsic motivation?",
+        "answers": [
+            "Rewards",
+            "Social pressure",
+            "Curiosity",
+            "Financial gain",
+            "Punishment"
+        ],
+        "correct": 2,
+        "points": 2
+    },
+    {
+        "question": "Self-Determination Theory differentiates between ___ and ___ motivation types.",
+        "answers": [
+            "Autonomous and controlled",
+            "Autonomous and intrinsic",
+            "Controlled and extrinsic",
+            "Introjected and extrinsic",
+            "Introjected and intrinsic"
+        ],
+        "correct": 0,
+        "points": 2
+    },
+    {
+        "question": "The principles of contiguity and reinforcement are central to explaining the learning process in the ___ orientation to learning.",
+        "answers": [
+            "Cognitive",
+            "Humanistic",
+            "Social and social-constructivist",
+            "Behaviorist"
+        ],
+        "correct": 3,
+        "points": 2
+    },
+    {
+        "question": "The word ‘pedagogy’ has been derived from the Greek word 'pedagogue' which stands for___",
+        "answers": [
+            "The science of learning",
+            "The art of observing",
+            "The art of teaching children",
+            "None of the given"
+        ],
+        "correct": 2,
+        "points": 2
+    },
+    {
+        "question": "Which of the following impacts student learning?",
+        "answers": [
+            "Perception about intelligence and ability",
+            "Prior knowledge",
+            "Student context",
+            "All of the given"
+        ],
+        "correct": 3,
+        "points": 2
+    },
+    {
+        "question": "Which of the following is not true about pedagogy?",
+        "answers": [
+            "It assists both students and teachers in gaining an understanding of fundamental material",
+            "It is about suppressing responses from learners",
+            "It enhances the student-teacher relationship",
+            "It enables teachers to capture the attention of students"
+        ],
+        "correct": 1,
+        "points": 2
+    },
+    {
+        "question": "The Yerkes Dodson law gives ___ relationship between arousal and performance.",
+        "answers": [
+            "Inverted U-shaped",
+            "Linear",
+            "No relationship",
+            "Parabolic"
+        ],
+        "correct": 0,
+        "points": 2
+    },
+    {
+        "question": "Theory of multiple intelligences is given by ___",
+        "answers": [
+            "Howard Gardner",
+            "Edward C. Tolman",
+            "German Gestalt",
+            "Robert J. Sternberg"
+        ],
+        "correct": 0,
+        "points": 2
+    },
+    {
+        "question": "Which of the following is not a factor in individual differences affecting learning?",
+        "answers": [
+            "Interest",
+            "Endurance",
+            "Ego",
+            "Ergonomics"
+        ],
+        "correct": 3,
+        "points": 2
+    },
+    {
+        "question": "In achievement motivation, the motive to avoid failure often consists of ___",
+        "answers": [
+            "Worries about failing",
+            "Self-criticism",
+            "Accelerated heart rate",
+            "All of the given"
+        ],
+        "correct": 3,
+        "points": 2
+    },
+    {
+        "question": "Which of the following psychologists developed the concept of social cognitive theory?",
+        "answers": [
+            "Watson",
+            "Piaget",
+            "Bandura",
+            "Freud"
+        ],
+        "correct": 2,
+        "points": 2
+    },
+    {
+        "question": "___ memory refers to events that can be reported from a person’s life.",
+        "answers": [
+            "Episodic",
+            "Semantic",
+            "Procedural",
+            "None of the given"
+        ],
+        "correct": 0,
+        "points": 2
+    },
+    {
+        "question": "The ___ stage of the creative thinking process refers to the 'eureka' moment.",
+        "answers": [
+            "Insight",
+            "Incubation",
+            "Evaluation",
+            "Preparation",
+            "Elaboration"
+        ],
+        "correct": 0,
+        "points": 2
+    },
+    {
+        "question": "Valence, or the perceived value of a reward, would have ___ value if one wants to avoid that reward.",
+        "answers": [
+            "One",
+            "Zero",
+            "Positive",
+            "Negative"
+        ],
+        "correct": 3,
+        "points": 2
     }
 ]
