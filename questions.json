@@ -1,0 +1,395 @@
+[
+    {
+        "question": "What is Psychology?",
+        "answers": [
+            "A Science subject",
+            "Is objective perception",
+            "An art of living",
+            "A thought process",
+            "A study of cognitive processes & behavior"
+        ],
+        "correct": 4,
+        "points": 2
+    },
+    {
+        "question": "A broad field of study that explores a variety of questions about thoughts, feelings and actions is -------?",
+        "answers": [
+            "Society",
+            "Globalization",
+            "Psychology",
+            "Social Science",
+            "Human Development"
+        ],
+        "correct": 2,
+        "points": 2
+    },
+    {
+        "question": "A systematic assessment that provides information on political views, consumer buying habits and many other topics is called?",
+        "answers": [
+            "Standardized test",
+            "Projects",
+            "Experiments",
+            "Survey",
+            "Psychological tests"
+        ],
+        "correct": 3,
+        "points": 2
+    },
+    {
+        "question": "The word Psyche means?",
+        "answers": [
+            "Body or physique",
+            "Mind or soul",
+            "Science & spirituality",
+            "Mental health",
+            "Neuropsychology"
+        ],
+        "correct": 1,
+        "points": 2
+    },
+    {
+        "question": "Who established the psychology laboratory in Germany?",
+        "answers": [
+            "B.F. Skinner",
+            "J. Thorndike",
+            "Sigmund Freud",
+            "David Kolb",
+            "Wilhelm Wundt"
+        ],
+        "correct": 4,
+        "points": 2
+    },
+    {
+        "question": "Behaviorists use a learning process to change abnormal behavior. This process is called?",
+        "answers": [
+            "Rationalism",
+            "Experiential intervention",
+            "Gestalt mechanism",
+            "Hypotheses verification",
+            "Conditioning"
+        ],
+        "correct": 4,
+        "points": 2
+    },
+    {
+        "question": "The study of changes in behavior during lifetime is called?",
+        "answers": [
+            "Behaviorism",
+            "Individual difference",
+            "Developmental Psychology",
+            "Maturational theory",
+            "Genetics or Heredity"
+        ],
+        "correct": 2,
+        "points": 2
+    },
+    {
+        "question": "Which of the following is true regarding learning in psychology?",
+        "answers": [
+            "The psychology of learning focuses on how people learn and how they interact with environments in which they have not learned",
+            "Learning does not involve any changes in the organism",
+            "Learning is a relatively temporary change in behavior",
+            "None of the given"
+        ],
+        "correct": 3,
+        "points": 2
+    },
+    {
+        "question": "In order to say that learning has occurred, a/an ___ must occur during the lifetime of the organism.",
+        "answers": [
+            "hidden change in behavior",
+            "small change in personality",
+            "visible change in emotions",
+            "observable change in behavior"
+        ],
+        "correct": 3,
+        "points": 2
+    },
+    {
+        "question": "Learning changes the ___ through the process of continuous interactions between the learner and the external environment.",
+        "answers": [
+            "physical structure of the brain",
+            "chemical structure of neurons",
+            "physical structure of the heart",
+            "chemical structure of the spinal cord"
+        ],
+        "correct": 1,
+        "points": 2
+    },
+    {
+        "question": "Watson, one of the first psychologists to study learning and behavior is known for the ____.",
+        "answers": [
+            "Little Albert experiment",
+            "Little John experiment",
+            "Little Robert experiment",
+            "Little Johnny experiment"
+        ],
+        "correct": 1,
+        "points": 2
+    },
+    {
+        "question": "Which of the following is not explored and described by the psychology of learning?",
+        "answers": [
+            "principles of motivation",
+            "principles of forgetting",
+            "principles of genetic disorders",
+            "principles of memory",
+            "principles of retention"
+        ],
+        "correct": 2,
+        "points": 2
+    },
+    {
+        "question": "The state of ___ may be valuable at the start of a learning experience.",
+        "answers": [
+            "conscious incompetence",
+            "unconscious incompetence",
+            "conscious over-competence",
+            "unconscious over-competence"
+        ],
+        "correct": 1,
+        "points": 2
+    },
+    {
+        "question": "___ is the decrease in the response that an organism gives to a stimulus to which it is exposed in numerous trials or occasions.",
+        "answers": [
+            "Habituation",
+            "Sensitization",
+            "Forgetting",
+            "Meaningful learning"
+        ],
+        "correct": 0,
+        "points": 2
+    },
+    {
+        "question": "Cooperative learning is shaped by three crucial elements. Which of the following is one of them?",
+        "answers": [
+            "formation of heterogeneous groups",
+            "positive interdependence",
+            "individual responsibility",
+            "all of the given"
+        ],
+        "correct": 3,
+        "points": 2
+    },
+    {
+        "question": "Which of the following psychologists is an important contributor to the concept of observational learning?",
+        "answers": [
+            "Watson",
+            "Dewey",
+            "Bruner",
+            "Bandura"
+        ],
+        "correct": 3,
+        "points": 2
+    },
+    {
+        "question": "Which of the following is not considered a pioneer of the behaviorism school of thought in psychology?",
+        "answers": [
+            "Watson",
+            "Skinner",
+            "Freud",
+            "Pavlov"
+        ],
+        "correct": 2,
+        "points": 2
+    },
+    {
+        "question": "___ is known as the father of modern psychology.",
+        "answers": [
+            "Sigmund Freud",
+            "Wilhelm Wundt",
+            "John Watson",
+            "Lev Vygotsky"
+        ],
+        "correct": 1,
+        "points": 2
+    },
+    {
+        "question": "Cognitivists objected to behaviorists because they felt that behaviorists ignored the important role of ___",
+        "answers": [
+            "genetics",
+            "emotions",
+            "thinking",
+            "stimulus reaction"
+        ],
+        "correct": 2,
+        "points": 2
+    },
+    {
+        "question": "Which of the following is not true about the assumptions underlying the Information Processing View of Learning?",
+        "answers": [
+            "Information processing is analogous to computer processing",
+            "The human information processing system is interactive",
+            "There is no limit on how much information can be processed at each stage",
+            "Information is processed in steps"
+        ],
+        "correct": 2,
+        "points": 2
+    },
+    {
+        "question": "Which of the following is not a type of constructivism?",
+        "answers": [
+            "biological",
+            "cognitive",
+            "social",
+            "radical"
+        ],
+        "correct": 0,
+        "points": 2
+    },
+    {
+        "question": "Which of the following is not one of the three major processes involved in memory?",
+        "answers": [
+            "encoding",
+            "retrieval",
+            "storage",
+            "imagination"
+        ],
+        "correct": 3,
+        "points": 2
+    },
+    {
+        "question": "The cognitive load theory suggests that when we overload our ___, we are unable to acquire and process new information.",
+        "answers": [
+            "sensory memory",
+            "encoding",
+            "retrieval",
+            "working memory"
+        ],
+        "correct": 3,
+        "points": 2
+    },
+    {
+        "question": "Which of the following is not a component of the ADDIE model?",
+        "answers": [
+            "analysis",
+            "integration",
+            "development",
+            "evaluation"
+        ],
+        "correct": 1,
+        "points": 2
+    },
+    {
+        "question": "Which of the following impacts student learning?",
+        "answers": [
+            "Their perception about their intelligence and ability",
+            "Prior knowledge",
+            "Their context",
+            "All of the given"
+        ],
+        "correct": 3,
+        "points": 2
+    },
+    {
+        "question": "In achievement motivation, the motive to avoid failure often consists of ___",
+        "answers": [
+            "worries about the consequences of failing",
+            "self-criticism",
+            "accelerated heart rate",
+            "all of the given"
+        ],
+        "correct": 3,
+        "points": 2
+    },
+    {
+        "question": "Which of the following is true regarding observational learning?",
+        "answers": [
+            "Observational learning is based on immediate rewards.",
+            "It doesn’t involve any cognitive processes.",
+            "It requires attention and memory processes.",
+            "Only animals can learn by observation."
+        ],
+        "correct": 2,
+        "points": 2
+    },
+    {
+        "question": "___ prevents the quick disappearance of information from short term memory.",
+        "answers": [
+            "Rehearsal",
+            "Encoding",
+            "Retrieval",
+            "None of the given"
+        ],
+        "correct": 0,
+        "points": 2
+    },
+    {
+        "question": "Effective instruction is?",
+        "answers": [
+            "Interactive, generative, and dynamic",
+            "Designed to accommodate student learning needs and styles",
+            "Guided by general pedagogical approaches",
+            "All of the given"
+        ],
+        "correct": 3,
+        "points": 2
+    },
+    {
+        "question": "Cognitive evaluation for planning, attention, simultaneous, and successive processing of individuals can be done through CAS based on PASS theory. CAS here stands for ___",
+        "answers": [
+            "Cognitive Achievement System",
+            "Cognitive Ability System",
+            "Cognitive Appraisal System",
+            "Cognitive Assessment System"
+        ],
+        "correct": 3,
+        "points": 2
+    },
+    {
+        "question": "Which of the following is not true about e-learning?",
+        "answers": [
+            "One can have access to the content any number of times",
+            "It helps in developing new policies",
+            "It saves time for students who don’t need to travel to the institution",
+            "It is targeted to cater to the needs of students specifically"
+        ],
+        "correct": 3,
+        "points": 2
+    },
+    {
+        "question": "In a concept map, two nodes connected with a labeled arrow are called a ___",
+        "answers": [
+            "preposition",
+            "nodal link",
+            "schema",
+            "proposition"
+        ],
+        "correct": 3,
+        "points": 2
+    },
+    {
+        "question": "Which of the following is not true about Maslow’s need hierarchy?",
+        "answers": [
+            "Needs lower down in the hierarchy must be satisfied before individuals can attend to higher needs",
+            "Safety needs lie at the bottom of the pyramid",
+            "Deficiency needs are concerned with basic survival",
+            "Growth needs are more psychological needs"
+        ],
+        "correct": 1,
+        "points": 2
+    },
+    {
+        "question": "The Multicomponent Model of Working Memory is largely attributed to the work by ___",
+        "answers": [
+            "Atkinson & Shiffrin",
+            "Baddeley",
+            "Piaget",
+            "Craik & Lockhart"
+        ],
+        "correct": 1,
+        "points": 2
+    },
+    {
+        "question": "Which of the following is a challenge faced by people with social cognition deficits?",
+        "answers": [
+            "Talking too much to people",
+            "Responding well to people",
+            "Difficulty in reading facial expressions",
+            "Difficulty in getting good academic scores"
+        ],
+        "correct": 2,
+        "points": 2
+    }
+]
