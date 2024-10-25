@@ -40,6 +40,7 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            margin: 5px 0; /* Added margin for spacing */
         }
         button:hover {
             background-color: #218838;
@@ -51,6 +52,25 @@
         }
         .incorrect {
             color: red;
+            font-weight: bold;
+        }
+        .correct {
+            color: green;
+            font-weight: bold;
+        }
+        .result ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .result li {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            background-color: #f9f9f9; /* Light background for list items */
+        }
+        .result li:hover {
+            background-color: #f0f0f0; /* Change background on hover */
         }
     </style>
 </head>
@@ -58,9 +78,16 @@
 
 <div id="quiz-container">
     <h1>Psychology Quiz</h1>
-    <div class="timer" id="timer">Time Left: <span id="time">60:00</span></div>
+    <div id="quiz-selection">
+        <h2>Select Quiz Size</h2>
+        <button onclick="startQuiz(10)">10 Questions</button>
+        <button onclick="startQuiz(30)">30 Questions</button>
+        <button onclick="startQuiz(50)">50 Questions</button>
+    </div>
+    <div class="timer" id="timer" style="display: none;">Time Left: <span id="time">60:00</span></div>
     <div id="questions"></div>
-    <button onclick="submitQuiz()">Submit Quiz</button>
+    <button id="submit-button" onclick="submitQuiz()" style="display: none;">Submit Quiz</button>
+    <button id="new-quiz-button" onclick="resetQuiz()" style="display: none;">New Quiz</button>
     <div class="result" id="result"></div>
 </div>
 
@@ -71,6 +98,7 @@
     let timeLeft = 3600; // 60 minutes in seconds
     let timer;
 
+    // Start the timer for the quiz
     function startTimer() {
         timer = setInterval(() => {
             timeLeft--;
@@ -84,65 +112,117 @@
         }, 1000);
     }
 
-    function loadQuestions() {
+    // Start the quiz based on the selected number of questions
+    function startQuiz(numberOfQuestions) {
+        document.getElementById("quiz-selection").style.display = "none"; // Hide quiz selection
+        document.getElementById("submit-button").style.display = "block"; // Show submit button
+        document.getElementById("timer").style.display = "block"; // Show timer
+        loadRandomQuestions(numberOfQuestions); // Load random questions
+        startTimer(); // Start the timer
+    }
+
+    // Load random questions from the JSON file
+    function loadRandomQuestions(count) {
         fetch('questions.json')
             .then(response => response.json())
             .then(data => {
-                questions = data;
-                const questionsDiv = document.getElementById("questions");
-                questions.forEach((q, index) => {
-                    const questionElement = document.createElement("div");
-                    questionElement.classList.add("question");
-                    questionElement.innerHTML = `<strong>${index + 1}. ${q.question}</strong><br>`;
-                    q.answers.forEach((answer, i) => {
-                        questionElement.innerHTML += `<input type="radio" name="q${index}" value="${i}"> ${answer}<br>`;
-                    });
-                    questionsDiv.appendChild(questionElement);
-                });
+                // Shuffle the questions and select the specified count
+                questions = shuffleArray(data).slice(0, count);
+                displayQuestions(); // Display the selected questions
             })
             .catch(error => console.error('Error loading questions:', error));
     }
 
+    // Shuffle the array of questions
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+        }
+        return array;
+    }
+
+    // Display the selected questions in the quiz
+    function displayQuestions() {
+        const questionsDiv = document.getElementById("questions");
+        questionsDiv.innerHTML = ''; // Clear previous questions
+        questions.forEach((q, index) => {
+            const questionElement = document.createElement("div");
+            questionElement.classList.add("question");
+            questionElement.innerHTML = `<strong>${index + 1}. ${q.question}</strong><br>`;
+            q.answers.forEach((answer, i) => {
+                questionElement.innerHTML += `<input type="radio" name="q${index}" value="${i}"> ${answer}<br>`;
+            });
+            questionsDiv.appendChild(questionElement);
+        });
+    }
+
+    // Submit the quiz and calculate results
     function submitQuiz() {
-        clearInterval(timer);
+        clearInterval(timer); // Stop the timer
         questions.forEach((q, index) => {
             const userAnswer = document.querySelector(`input[name="q${index}"]:checked`);
             if (userAnswer) {
                 if (parseInt(userAnswer.value) === q.correct) {
-                    score += q.points;
+                    score += q.points; // Increment score for correct answers
                 } else {
-                    incorrectQuestions.push({ question: q.question, correctAnswer: q.answers[q.correct] });
+                    incorrectQuestions.push({
+                        question: q.question,
+                        userAnswer: q.answers[parseInt(userAnswer.value)],
+                        correctAnswer: q.answers[q.correct]
+                    });
                 }
-            } else {
-                // If no answer is selected, you may choose to handle it here
             }
         });
-        showResult();
+        showResult(); // Show the result after submission
+        document.getElementById("submit-button").style.display = "none"; // Hide submit button
+        document.getElementById("new-quiz-button").style.display = "block"; // Show new quiz button
     }
+
+    // Display the result of the quiz
     function showResult() {
-    const resultDiv = document.getElementById("result");
-    resultDiv.style.display = "block";
+        const resultDiv = document.getElementById("result");
+        resultDiv.style.display = "block"; // Show the result section
 
-    // Calculate the total points possible
-    const totalPoints = questions.reduce((total, q) => total + q.points, 0);
-    resultDiv.innerHTML = `You scored ${score} out of ${totalPoints}.<br>`;
+        const totalPoints = questions.reduce((total, q) => total + q.points, 0);
+        resultDiv.innerHTML = `You scored ${score} out of ${totalPoints}.<br>`;
 
-    // Check if user passed (40% of total points)
-    const passingScore = totalPoints * 0.4; // 40% of total points
-    resultDiv.innerHTML += score >= passingScore ? "Congratulations! You passed the exam!" : "Unfortunately, you did not pass.";
+        const passingScore = totalPoints * 0.4; // Calculate passing score
+        resultDiv.innerHTML += score >= passingScore ? "Congratulations! You passed the exam!" : "Unfortunately, you did not pass.";
 
-    if (incorrectQuestions.length > 0) {
-        resultDiv.innerHTML += "<h3>Incorrect Answers:</h3><ul class='incorrect'>";
-        incorrectQuestions.forEach(q => {
-            resultDiv.innerHTML += `<li>${q.question} - Correct Answer: ${q.correctAnswer}</li>`;
-        });
-        resultDiv.innerHTML += "</ul>";
+        // Display incorrect answers if any
+        if (incorrectQuestions.length > 0) {
+            resultDiv.innerHTML += "<h3>Incorrect Answers:</h3><ul class='incorrect'>";
+            incorrectQuestions.forEach(q => {
+                resultDiv.innerHTML += `
+                    <li>
+                        <span class="incorrect">Question:</span> ${q.question}<br>
+                        <span class="incorrect">Your Answer:</span> ${q.userAnswer}<br>
+                        <span class="correct">Correct Answer:</span> ${q.correctAnswer}
+                    </li>
+                `;
+            });
+            resultDiv.innerHTML += "</ul>";
+        }
     }
-}
 
+    // Reset the quiz to the selection state
+    function resetQuiz() {
+        // Reset variables and UI elements
+        score = 0;
+        incorrectQuestions = [];
+        timeLeft = 3600; // Reset timer
+        document.getElementById("result").style.display = "none"; // Hide result section
+        document.getElementById("new-quiz-button").style.display = "none"; // Hide new quiz button
+        document.getElementById("quiz-selection").style.display = "block"; // Show quiz selection
+        document.getElementById("questions").innerHTML = ''; // Clear questions
+        document.getElementById("timer").style.display = "none"; // Hide timer
+        document.getElementById("submit-button").style.display = "none"; // Hide submit button
+    }
+
+    // Load questions and start the timer when the window loads
     window.onload = () => {
-        loadQuestions();
-        startTimer();
+        // The quiz does not load questions until a quiz size is selected
     };
 </script>
 
