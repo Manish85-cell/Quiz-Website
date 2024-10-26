@@ -40,7 +40,7 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            margin: 5px 0; /* Added margin for spacing */
+            margin: 5px 0;
         }
         button:hover {
             background-color: #218838;
@@ -67,18 +67,23 @@
             padding: 10px;
             border-radius: 5px;
             transition: background-color 0.3s;
-            background-color: #f9f9f9; /* Light background for list items */
+            background-color: #f9f9f9;
         }
         .result li:hover {
-            background-color: #f0f0f0; /* Change background on hover */
+            background-color: #f0f0f0;
         }
     </style>
 </head>
 <body>
 
 <div id="quiz-container">
-    <h1>Psychology Quiz</h1>
-    <div id="quiz-selection">
+    <h1>Quiz Selection</h1>
+    <div id="subject-selection">
+        <h2>Select Subject</h2>
+        <button onclick="selectSubject('Psychology')">Psychology</button>
+        <button onclick="selectSubject('Java Programming')">Java Programming</button>
+    </div>
+    <div id="quiz-selection" style="display: none;">
         <h2>Select Quiz Size</h2>
         <button onclick="startQuiz(10)">10 Questions</button>
         <button onclick="startQuiz(30)">30 Questions</button>
@@ -97,6 +102,14 @@
     let incorrectQuestions = [];
     let timeLeft = 3600; // 60 minutes in seconds
     let timer;
+    let selectedSubject = '';
+
+    // Select subject and show quiz length options
+    function selectSubject(subject) {
+        selectedSubject = subject;
+        document.getElementById("subject-selection").style.display = "none"; // Hide subject selection
+        document.getElementById("quiz-selection").style.display = "block"; // Show quiz selection
+    }
 
     // Start the timer for the quiz
     function startTimer() {
@@ -117,22 +130,46 @@
         document.getElementById("quiz-selection").style.display = "none"; // Hide quiz selection
         document.getElementById("submit-button").style.display = "block"; // Show submit button
         document.getElementById("timer").style.display = "block"; // Show timer
-        loadRandomQuestions(numberOfQuestions); // Load random questions
+        loadRandomQuestions(selectedSubject, numberOfQuestions); // Load random questions
         startTimer(); // Start the timer
     }
 
-    // Load random questions from the JSON file
-    function loadRandomQuestions(count) {
-        fetch('questions.json')
-            .then(response => response.json())
+    // Load random questions from the JSON file based on the selected subject
+    // function loadRandomQuestions(subject, count) {
+    //     fetch(subject === 'Psychology' ? 'psychology_questions.json' : 'java_questions.json')
+    //         .then(response => response.json())
+    //         .then(data => {
+    //             // Shuffle the questions and select the specified count
+    //             questions = shuffleArray(data).slice(0, count);
+    //             displayQuestions(); // Display the selected questions
+    //         })
+    //         .catch(error => console.error('Error loading questions:', error));
+    // }
+    function loadRandomQuestions(subject, count) {
+        const fileName = subject === 'Psychology' ? 'psychology_questions.json' : 'java_questions.json';
+
+        fetch(fileName)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`Network response was not ok: ${response.statusText}`);
+                }
+                return response.json();
+            })
             .then(data => {
+                // Validate the loaded data
+                if (!Array.isArray(data) || data.length === 0) {
+                    throw new Error('No questions found in the loaded data.');
+                }
+                
                 // Shuffle the questions and select the specified count
-                questions = shuffleArray(data).slice(0, count);
+                questions = shuffleArray(data).slice(0, Math.min(count, data.length));
                 displayQuestions(); // Display the selected questions
             })
-            .catch(error => console.error('Error loading questions:', error));
+            .catch(error => {
+                console.error('Error loading questions:', error);
+                alert('Failed to load questions. Please try again later.');
+            });
     }
-
     // Shuffle the array of questions
     function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
@@ -169,7 +206,8 @@
                     incorrectQuestions.push({
                         question: q.question,
                         userAnswer: q.answers[parseInt(userAnswer.value)],
-                        correctAnswer: q.answers[q.correct]
+                        correctAnswer: q.answers[q.correct],
+                        explanation: q.explanation // Include explanation for wrong answer
                     });
                 }
             }
@@ -198,7 +236,8 @@
                     <li>
                         <span class="incorrect">Question:</span> ${q.question}<br>
                         <span class="incorrect">Your Answer:</span> ${q.userAnswer}<br>
-                        <span class="correct">Correct Answer:</span> ${q.correctAnswer}
+                        <span class="correct">Correct Answer:</span> ${q.correctAnswer}<br>
+                        ${q.explanation ? `<span class="correct">Explanation:</span> ${q.explanation}` : ''}
                     </li>
                 `;
             });
@@ -214,7 +253,8 @@
         timeLeft = 3600; // Reset timer
         document.getElementById("result").style.display = "none"; // Hide result section
         document.getElementById("new-quiz-button").style.display = "none"; // Hide new quiz button
-        document.getElementById("quiz-selection").style.display = "block"; // Show quiz selection
+        document.getElementById("subject-selection").style.display = "block"; // Show subject selection
+        document.getElementById("quiz-selection").style.display = "none"; // Hide quiz selection
         document.getElementById("questions").innerHTML = ''; // Clear questions
         document.getElementById("timer").style.display = "none"; // Hide timer
         document.getElementById("submit-button").style.display = "none"; // Hide submit button
