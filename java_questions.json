@@ -1,0 +1,1456 @@
+[
+    {
+        "question": "Which of the following is not a valid comment in Java?",
+        "answers": [
+            "/** comment */",
+            "/* comment */",
+            "/* comment /",
+            "// comment"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Option 'c' is not a valid comment as it lacks a closing asterisk and slash."
+    },
+    {
+        "question": "What is the output of the following code?\npublic class Main {\n  public static void main(String[] args) {\n    String str1 = \"NPTEL\";\n    String str2 = \"java\";\n    int a = 20;\n    int b = 24;\n    System.out.println(str1 + a + b); // Statement 1\n    System.out.println(a + b + str2); // Statement 2\n  }\n}",
+        "answers": [
+            "NPTEL2024 44java",
+            "NPTEL44 44java",
+            "NPTEL2024 2024java",
+            "NPTEL44 2024java"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "The output is 'NPTEL2024' and '44java' due to Java's handling of string concatenation and addition."
+    },
+    {
+        "question": "Which of the following is used to find and fix bugs in the Java programs?",
+        "answers": [
+            "JVM",
+            "JRE",
+            "JDK",
+            "JDB"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "JDB (Java Debugger) is a command-line debugger for Java programs."
+    },
+    {
+        "question": "What is the value returned by the method f() defined below?\npublic static int f(int x, int y) { return (x > y) ? y : x; }",
+        "answers": [
+            "The sum of x and y, that is, x + y.",
+            "The difference of x and y, that is, x - y.",
+            "The maximum of x and y, that is, the larger value of x and y.",
+            "The minimum of x and y, that is, the smaller value of x and y."
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "The function returns the smaller value of x and y using the ternary operator."
+    },
+    {
+        "question": "Consider the following program. What will be the output if it is executed?\npublic class Question {\n  public static void main(String args[]) {\n    int f = 0, g = 1;\n    for (int i = 0; i <= 5; i++) {\n      System.out.println(f);\n      f = f + g;\n      g = f - g;\n    }\n  }\n}",
+        "answers": [
+            "Print first six even numbers.",
+            "Print first six odd numbers.",
+            "Print first six prime numbers.",
+            "Print first six Fibonacci numbers."
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "The program prints the first six Fibonacci numbers: 0, 1, 1, 2, 3, 5."
+    },
+    {
+        "question": "Which program is used to compile Java source code into bytecode?",
+        "answers": [
+            "javap",
+            "javac",
+            "java",
+            "javad"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "javac is the compiler used to convert Java source code into bytecode."
+    },
+    {
+        "question": "Consider the following program.\npublic class Question {\n  public static void main(String[] args) {\n    int x = 5;\n    x *= (2 + 8);\n    System.out.println(x);\n  }\n}",
+        "answers": [
+            "50",
+            "10",
+            "Compiler error",
+            "5"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "x *= (2 + 8) calculates as x * 10, resulting in x = 50."
+    },
+    {
+        "question": "What is the incorrect statement about bytecode?",
+        "answers": [
+            "Java, when compiling the source code, converts it to bytecode.",
+            "JVM (Java Virtual Machine) is an interpreter of bytecode.",
+            "Bytecode is not portable and needs to be compiled separately for each platform.",
+            "JVM offers a protected environment which helps in enhanced safety for the system."
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Bytecode is portable, enabling platform independence in Java."
+    },
+    {
+        "question": "In Java, what is the role of the public static void main(String[] args) method?",
+        "answers": [
+            "Initialization method",
+            "Execution entry point",
+            "Constructor",
+            "Destructor"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "public static void main(String[] args) is the entry point for Java program execution."
+    },
+    {
+        "question": "What is the purpose of the break statement in Java?",
+        "answers": [
+            "To terminate the program",
+            "To exit a loop or switch statement",
+            "To skip the next iteration of a loop",
+            "To return a value from a method"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "The break statement is used to exit a loop or switch statement prematurely."
+    },
+    
+        {
+            "question": "Which of the following is the correct way to declare a class in Java?",
+            "answers": [
+                "public class MyClass {}",
+                "class MyClass[] {}",
+                "public MyClass class {}",
+                "MyClass public class {}"
+            ],
+            "correct": 0,
+            "points": 2,
+            "explanation": "The correct way to declare a class in Java is by using the class keyword followed by the class name and curly braces. Refer to Lecture 7 for more details."
+        },
+        {
+            "question": "What is the purpose of a constructor in a class?",
+            "answers": [
+                "To destroy objects of the class",
+                "To create static methods",
+                "To implement inheritance",
+                "To initialize objects of the class"
+            ],
+            "correct": 3,
+            "points": 2,
+            "explanation": "A constructor is used to initialize objects of a class. It is called when an instance of the class is created and can set initial values for object attributes. Refer to Lecture 7 for more details."
+        },
+        {
+            "question": "Which keyword is used in Java to refer to the current object?",
+            "answers": [
+                "that",
+                "self",
+                "current",
+                "this"
+            ],
+            "correct": 3,
+            "points": 2,
+            "explanation": "In Java, the 'this' keyword is used to refer to the current object within an instance method or a constructor. Refer to Lecture 8 for more details."
+        },
+        {
+            "question": "Consider the following code snippet. What will be the output?\n\nclass NPTEL_W2 {\n  int x;\n\n  NPTEL_W2(int x) {\n      this.x = x;\n  }\n\n  void printX() {\n      System.out.println(this.x);\n  }\n\n  public static void main(String[] args) {\n      NPTEL_W2 obj = new NPTEL_W2(10);\n      obj.printX();\n  }\n}",
+            "answers": [
+                "0",
+                "10",
+                "Compilation error",
+                "Runtime error"
+            ],
+            "correct": 1,
+            "points": 2,
+            "explanation": "The constructor NPTEL_W2(int x) initializes the instance variable x with the value passed as an argument. The method printX() prints the value of x, which is 10. Refer to Lecture 7 for more details."
+        },
+        {
+            "question": "Which of the following demonstrates constructor overloading in Java?",
+            "answers": [
+                "Defining multiple constructors in a class with different parameter lists",
+                "Defining multiple methods in a class with the same name",
+                "Defining a constructor in a subclass",
+                "Using the super keyword"
+            ],
+            "correct": 0,
+            "points": 2,
+            "explanation": "Constructor overloading in Java is achieved by defining multiple constructors in a class, each with different parameter lists. This allows creating objects in different ways. Refer to Lecture 8 for more details."
+        },
+        {
+            "question": "What is the purpose of the 'this' keyword in the context of avoiding name space collision?",
+            "answers": [
+                "To call another constructor in the same class",
+                "To refer to the current object",
+                "To differentiate between instance variables and parameters with the same name",
+                "To import another class"
+            ],
+            "correct": 2,
+            "points": 2,
+            "explanation": "The 'this' keyword is used to differentiate between instance variables and parameters when they have the same name, avoiding name space collision. Refer to Lecture 8 for more details."
+        },
+        {
+            "question": "Which of the following is the correct signature of the main method in Java?",
+            "answers": [
+                "public void main(String[] args)",
+                "public static void main(String[] args)",
+                "public static void main()",
+                "public main(String[] args)"
+            ],
+            "correct": 1,
+            "points": 2,
+            "explanation": "The correct signature of the main method in Java is public static void main(String[] args). This method serves as the entry point for the Java application. Refer to Lecture 9 for more details."
+        },
+        {
+            "question": "Which class is used in Java to take runtime data input from the user?",
+            "answers": [
+                "BufferReader",
+                "UserInputStreamReader",
+                "Scanner",
+                "DataInputStreamReader"
+            ],
+            "correct": 2,
+            "points": 2,
+            "explanation": "The Scanner class is used to take runtime data input from the user. It provides methods to read various types of input such as strings, integers, and floating-point numbers. Refer to Lecture 9 for more details."
+        },
+        {
+            "question": "What is the output of the following Java code snippet?\n\npublic class Main {\n  public static void main(String[] args) {\n    System.out.print(\"Hello \");\n    System.out.println(\"World\");\n    System.out.printf(\"Number: %d\", 10);\n  }\n}",
+            "answers": [
+                "Hello World\nNumber: 10",
+                "Hello WorldNumber: 10",
+                "Hello \nWorld\nNumber: 10",
+                "Hello World\nNumber: 10\n"
+            ],
+            "correct": 0,
+            "points": 2,
+            "explanation": "The print method prints text without a newline, println prints text with a newline, and printf prints formatted text. The output is 'Hello World' on the first line and 'Number: 10' on the second line. Refer to Lecture 10 for more details."
+        },
+        {
+            "question": "How do you read a line of text from the console using the Scanner class in Java?",
+            "answers": [
+                "scanner.readLine()",
+                "scanner.nextLine()",
+                "scanner.getLine()",
+                "scanner.fetchLine()"
+            ],
+            "correct": 1,
+            "points": 2,
+            "explanation": "The nextLine() method of the Scanner class reads a line of text from the console. Refer to Lecture 10 for more details."
+        }
+        ,
+    {
+        "question": "What will be the output of the following program?\n\nclass First {\n    static void staticMethod() {\n        System.out.println(\"Static Method\");\n    }\n}\n\nclass MainClass {\n    public static void main(String[] args) {\n        First first = null;\n        First.staticMethod();\n    }\n}",
+        "answers": [
+            "Static Method",
+            "Throws a NullPointerException",
+            "Compile-time error",
+            "Run-time error"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Since static methods can be called without an instance, the program will output 'Static Method' without any exceptions."
+    },
+    {
+        "question": "What will be the output of the below program?\n\nclass superDemoClass {\n    final int a = 20;\n}\n\nclass subDemoClass extends superDemoClass {\n    void subFunc() {\n        a = 40;\n        System.out.println(\"value of a = \" + a);\n    }\n}\n\nclass demo {\n    public static void main(String[] args) {\n        subDemoClass subc = new subDemoClass();\n        subc.subFunc();\n    }\n}",
+        "answers": [
+            "value of a = 20",
+            "error: cannot assign a value to final variable 'a'",
+            "error: unknown variable 'a' in class subDemoClass",
+            "value of a = 40"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Since 'a' is declared as final in the superclass, it cannot be modified in the subclass, resulting in an error."
+    },
+    {
+        "question": "All the variables of an interface should be?",
+        "answers": [
+            "default and final",
+            "default and static",
+            "public, static and final",
+            "protected, static and final"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Interface variables are by default public, static, and final to ensure that implementing classes cannot alter these values."
+    },
+    {
+        "question": "What will be the output of the below program?\n\nclass static_out {\n    static int x;\n    static int y;\n\n    void add(int a, int b) {\n        x = a + b;\n        y = x + b;\n    }\n}\n\npublic class static_use {\n    public static void main(String args[]) {\n        static_out obj1 = new static_out();\n        static_out obj2 = new static_out();\n        int a = 2;\n        obj1.add(a, a + 1);\n        obj2.add(5, a);\n        System.out.println(obj1.x + \" \" + obj2.y);\n    }\n}",
+        "answers": [
+            "7 7.4",
+            "6 6.4",
+            "7 9",
+            "9 7"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "As static variables are shared, changes made by obj2 override obj1 values, resulting in x=7 and y=9."
+    },
+    {
+        "question": "What will be the output of the following Java code?\n\nclass access {\n    public int x;\n    private int y;\n\n    void cal(int a, int b) {\n        x = a + 1;\n        y = b;\n    }\n\n    void print() {\n        System.out.println(\" \" + y);\n    }\n}\n\npublic class access_specifier {\n    public static void main(String args[]) {\n        access obj = new access();\n        obj.cal(2, 3);\n        System.out.print(obj.x);\n        obj.print();\n    }\n}",
+        "answers": [
+            "2 3",
+            "3 3",
+            "Runtime Error",
+            "Compilation Error"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "The program outputs '3 3', as x and y are correctly set in cal() method. Although y is private, print() has access."
+    },
+    {
+        "question": "If a variable of primitive datatype in Java is declared as final, then",
+        "answers": [
+            "It cannot get inherited",
+            "Its value cannot be changed",
+            "It cannot be accessed in the subclass",
+            "All of the above"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "A final variable cannot change its value once initialized."
+    },
+    {
+        "question": "Members which are not intended to be inherited are declared as",
+        "answers": [
+            "Public members",
+            "Protected members",
+            "Private members",
+            "Private or Protected members"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Private access prevents inheritance, ensuring data security."
+    },
+    {
+        "question": "If a base class is inherited in protected access mode, then which among the following is true?",
+        "answers": [
+            "Public and Protected members of base class become protected members of derived class",
+            "Only protected members become protected members of derived class",
+            "Private, Protected and Public all members of base, become private of derived class",
+            "Only private members of base, become private of derived class"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "In protected mode, only public and protected members are inherited as protected."
+    },
+    {
+        "question": "Which type of inheritance leads to diamond problem?",
+        "answers": [
+            "Single level",
+            "Multi-level",
+            "Multiple",
+            "Hierarchical"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Multiple inheritance leads to ambiguity (diamond problem) when methods with identical names are inherited."
+    },
+    {
+        "question": "What will be the output of the below program?\n\nclass superDemoClass {\n    final void func() {\n        int a = 20;\n        System.out.println(\"value of a = \" + a);\n    }\n}\n\nclass subDemoClass extends superDemoClass {\n    void func() {\n        int b = 60;\n        System.out.println(\"value of b = \" + b);\n    }\n}\n\nclass demo {\n    public static void main(String[] args) {\n        subDemoClass subc = new subDemoClass();\n        subc.func();\n    }\n}",
+        "answers": [
+            "error: func() in subDemoClass cannot override func() in superDemoClass",
+            "value of b = 60",
+            "value of a = 20",
+            "None of the above"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "The subclass cannot override func() since it is declared final in the superclass."
+    }
+,
+
+    {
+        "question": "Which of these access specifiers must be used for main() method?",
+        "answers": [
+            "private",
+            "public",
+            "protected",
+            "default"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "The main() method must be specified as public because it is called by the Java runtime system, outside of the program. If no access specifier is used, the default member is public within its package and cannot be accessed by the Java runtime system."
+    },
+    {
+        "question": "What is the output of the below Java Code Snippet with protected access modifier?",
+        "answers": [
+            "100 marks",
+            "No output",
+            "Compiler error",
+            "None of the above"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Through inheritance, one can access a protected variable or method of a class even from outside the package. Here, we accessed the Teacher class in package nptel1 from the Student class in package nptel2."
+    },
+    {
+        "question": "What is the process by which we can control what parts of a program can access the members of a class?",
+        "answers": [
+            "Polymorphism",
+            "Augmentation",
+            "Encapsulation",
+            "Recursion"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Encapsulation in Java is the process by which data (variables) and the code that acts upon them (methods) are integrated as a single unit. By encapsulating a class's variables, other classes cannot access them directly."
+    },
+    {
+        "question": "Consider the 2 programs: Main1.java and Main2.java. What is true about their output?",
+        "answers": [
+            "Both pre-increment and post-increment operators become pre-increment during print.",
+            "Both pre-increment and post-increment operators become post-increment during print.",
+            "Both Main1 and Main2 classes give the same output.",
+            "Pre-increment and post-increment operators don’t work during print."
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "The output of both programs is 22. Therefore, option c is correct. The operators are performing as expected, making answers a, b, and d invalid."
+    },
+    {
+        "question": "Which is the least restrictive access modifier in Java?",
+        "answers": [
+            "public",
+            "private",
+            "protected",
+            "default"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "A variable or method marked as public is accessible by all classes outside of the package, making it the least restrictive access modifier in Java."
+    },
+    {
+        "question": "Choose the correct syntax of a Java Package below.",
+        "answers": [
+            "package PACKAGE_NAME;",
+            "package PACKAGE_NAME.*;",
+            "pkg PACKAGE_NAME;",
+            "pkg PACKAGE_NAME.*;"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "A package declaration statement should end with a package name but not with *."
+    },
+    {
+        "question": "What is the default package in Java?",
+        "answers": [
+            "It is a package that contains all built-in classes.",
+            "It is a package that needs to be defined as default.",
+            "It is a package that does not have a name.",
+            "It is a package used for importing external libraries."
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "The default package is a package without a specified name, but it is not recommended to use it for user-defined classes."
+    },
+    {
+        "question": "A package is a collection of:",
+        "answers": [
+            "classes",
+            "interfaces",
+            "editing tools",
+            "classes and interfaces"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "A package is a collection of classes, methods, and interfaces."
+    },
+    {
+        "question": "In Java, can a subclass in a different package access a superclass’s protected method?",
+        "answers": [
+            "Yes, without any restrictions.",
+            "Yes, but only if they are in the same package.",
+            "No, protected methods are not accessible by subclasses.",
+            "No, protected methods are only accessible within the same class."
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "A subclass in a different package can access a superclass's protected method if they have a subclass relationship."
+    },
+    {
+        "question": "Consider the program given below. What will be the output if the program is executed?",
+        "answers": [
+            "It will give compile-time error",
+            "It will give run-time error",
+            "1.0",
+            "3.14"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "The program gives a compile-time error as the Math class is missing. The static import statement (import static java.lang.Math.*) is needed to use PI directly."
+    },
+
+    {
+        "question": "Which exception will be thrown by parseInt() method in Java?",
+        "answers": [
+            "IntegerOutOfBoundException",
+            "IntegerFormatException",
+            "ArithmeticException",
+            "NumberFormatException"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "The parseInt() method will throw NumberFormatException when the string provided cannot be parsed as an integer."
+    },
+    {
+        "question": "What will be the output of the following program?\ninterface P { String p = 'PPPP'; String methodP(); }\ninterface Q extends P { String q = 'QQQQ'; String methodQ(); }\nclass R implements P, Q { public String methodP() { return q + p; } public String methodQ() { return p + q; } }\npublic class Main { public static void main(String[] args) { R r = new R(); System.out.println(r.methodP()); System.out.println(r.methodQ()); }}",
+        "answers": [
+            "QQQQPPPP PPPPQQQQ",
+            "PPPPQQQQ QQQQPPPP",
+            "PPPPPPPP QQQQQQQQ",
+            "Compilation error"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "methodP() returns q + p resulting in 'QQQQPPPP', and methodQ() returns p + q resulting in 'PPPPQQQQ'."
+    },
+    {
+        "question": "What will be the output of the following code?\nclass A implements B { public int methodB(int i) { return i = +i * i; } }\ninterface B { int methodB(int i); }\npublic class MainClass { public static void main(String[] args) { B b = new A(); System.out.println(b.methodB(2)); }}",
+        "answers": [
+            "4",
+            "6",
+            "2",
+            "8"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "methodB(2) performs 2 * 2, returning 4."
+    },
+    {
+        "question": "A method that potentially generates a checked exception must include this keyword in its method signature:",
+        "answers": [
+            "throw",
+            "extend",
+            "throws",
+            "extends"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "The 'throws' keyword alerts other methods about a checked exception that might be generated."
+    },
+    {
+        "question": "Which of the following statements is true about Java's finally block?",
+        "answers": [
+            "The finally block is only executed if an exception is thrown in the try block",
+            "The finally block is only executed if an exception is thrown in the catch block",
+            "The finally block is only executed if an exception is not thrown in the try or catch block",
+            "The finally block is executed regardless of whether an exception is thrown in the try or catch block"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "The finally block always executes after the try block, regardless of whether an exception is thrown."
+    },
+    {
+        "question": "Which of the following statements is true about exception handling in Java?",
+        "answers": [
+            "A try block can have many catch blocks but only one finally block",
+            "A try block can have many catch blocks and many finally blocks",
+            "A try block must have one finally block for each catch block",
+            "A try block must have at least one catch block to have a finally block"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "A try block can have multiple catch blocks but only one finally block, which is optional."
+    },
+    {
+        "question": "What will be the output of the following program?\nclass Output { public static void main(String args[]) { try { int a = 0; int b = 5; int c = b / a; System.out.print('Hello'); } catch (Exception e) { System.out.print('World'); } finally { System.out.print('World'); } }}",
+        "answers": [
+            "Hello",
+            "World",
+            "HelloWorld",
+            "WorldWorld"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Divide by zero exception triggers both catch and finally blocks, printing 'WorldWorld'."
+    },
+    {
+        "question": "What will be the output of the following Java code?\nclass Output { public static void main(String args[]) { try { int a = 0; int b = 5; int c = a / b; System.out.print('Hello'); } finally { System.out.print('World'); } }}",
+        "answers": [
+            "Hello",
+            "World",
+            "HelloWorld",
+            "Compilation Error"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "The finally block executes after try, printing 'HelloWorld'."
+    },
+    {
+        "question": "What will be the output of the following Java program?\ninterface calculate { void cal(int item); }\nclass displayA implements calculate { int x; public void cal(int item) { x = item * item; }}\nclass displayB implements calculate { int x; public void cal(int item) { x = item / item; }}\nclass interfaces { public static void main(String args[]) { displayA arr1 = new displayA(); displayB arr2 = new displayB(); arr1.x = 0; arr2.x = 0; arr1.cal(2); arr2.cal(2); System.out.print(arr1.x + ' ' + arr2.x); }}",
+        "answers": [
+            "0 0",
+            "2 2",
+            "4 1",
+            "1 4"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Class displayA squares the value, storing 4, while displayB divides by itself, storing 1."
+    },
+    {
+        "question": "Which of the following exceptions is not a subclass of the RuntimeException class?",
+        "answers": [
+            "NullPointerException",
+            "ArrayIndexOutOfBoundsException",
+            "IOException",
+            "ArithmeticException"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "IOException is a checked exception and not a subclass of RuntimeException."
+    },
+    
+        {
+            "question": "What is the output of the following program?\npublic class Question {\n  public static void main(String[] args) {\n    try {\n      int a = 5 / 0;\n    }\n    catch (Exception e) {\n        catch (ArithmeticException a) {\n          System.out.println(\"Cannot divide by 0\");\n        }\n    }\n    System.out.println(\"Hello World\");\n  }\n}",
+            "answers": [
+                "Hello World",
+                "Cannot divide by 0",
+                "Compilation Error",
+                "Runtime Error (the code compiles successfully)"
+            ],
+            "correct": 2,
+            "points": 2,
+            "explanation": "The second catch block for ArithmeticException is unreachable because Exception already catches it, causing a compilation error."
+        },
+        {
+            "question": "What will be the output of the following program?\nclass Question {\n    int i;\n    public Question(int i) {\n        this.i = i--;\n    }\n}\nclass Question1 extends Question {\n    public Question1(int i) {\n        super(++i);\n        System.out.println(i);\n    }\n}\npublic class Check {\n    public static void main(String[] args) {\n        Question1 n = new Question1(20);\n    }\n}",
+            "answers": [
+                "20",
+                "21",
+                "19",
+                "22"
+            ],
+            "correct": 1,
+            "points": 2,
+            "explanation": "The increment and decrement operators change the value of 'i' before and after the method calls, leading to the final printed value of 21."
+        },
+        {
+            "question": "What is the output of the following program?\nclass Question {\n    static int x;\n    static {\n        x++;\n    }\n    {\n        ++x;\n    }\n}\nclass Question1 extends Question {\n    static {\n        --x;\n    }\n    {\n        x--;\n    }\n}\npublic class Check {\n    public static void main(String[] args) {\n        System.out.println(new Question1().x);\n    }\n}",
+            "answers": [
+                "1",
+                "2",
+                "0",
+                "Compilation Error"
+            ],
+            "correct": 2,
+            "points": 2,
+            "explanation": "Static and instance initializers modify 'x' as classes are loaded and instances are created, resulting in a final value of 0."
+        },
+        {
+            "question": "Which exception is thrown when an array element is accessed beyond the array size?",
+            "answers": [
+                "ArrayElementOutOfBounds",
+                "ArrayIndexOutOfBoundsException",
+                "ArrayIndexOutOfBounds",
+                "None of these"
+            ],
+            "correct": 1,
+            "points": 2,
+            "explanation": "Accessing an array with an invalid index throws ArrayIndexOutOfBoundsException in Java."
+        },
+        {
+            "question": "What is the output of the following program?\nclass Q {\n    public void disp() {\n        System.out.println(\"java\");\n    }\n}\nclass P extends Q {\n    public void disp() {\n        System.out.println(\"nptel\");\n    }\n}\nclass C extends P {\n    public void disp(){\n        super.super.disp();\n        System.out.println(\"course\");\n    }\n}\npublic class Question {\n    public static void main(String[] args) {\n        C c = new C();\n        c.disp();\n    }\n}",
+            "answers": [
+                "java",
+                "java\ncourse",
+                "nptel\ncourse",
+                "Compilation Error"
+            ],
+            "correct": 3,
+            "points": 2,
+            "explanation": "Java does not support 'super.super' syntax; accessing a grandparent method this way results in a compilation error."
+        },
+        {
+            "question": "Fill in the blank in the program so that the output is \"Java\".\ninterface X {\n    void display();\n}\nclass Y implements X {\n    ___________ display() {  //MISSING_CODE\n        System.out.println(\"Java\");\n    }\n}\npublic class MainClass {\n    public static void main(String[] args) {\n        Y r = new Y();\n        r.display();\n    }\n}",
+            "answers": [
+                "public void",
+                "void",
+                "private void",
+                "static void"
+            ],
+            "correct": 0,
+            "points": 2,
+            "explanation": "Interface methods are implicitly public and must be implemented as public in any implementing class."
+        },
+        {
+            "question": "How many times will \"Java\" be printed if the following code is executed?\nclass X {\n    static {\n        Y.display();\n    }\n}\nclass Y extends X {\n    static void display() {\n        System.out.println(\"Java\");\n    }\n}\npublic class MainClass {\n    public static void main(String[] args) {\n        Y.display();\n    }\n}",
+            "answers": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "correct": 2,
+            "points": 2,
+            "explanation": "The static block in X calls Y.display() once, and Y.display() is called again in main, totaling two prints of \"Java\"."
+        },
+        {
+            "question": "The following is a simple program using the concept of thread. What is the output of the following program?\npublic class Question extends Thread {\n  public void run() {\n    for (int i = 1; i < 8; i++) {\n      System.out.print(++i + \" \");\n    }\n  }\n  public static void main(String args[]) {\n    Question t1 = new Question();\n    t1.run();\n  }\n}",
+            "answers": [
+                "1 3 5 7",
+                "2 4 6 8",
+                "1 3 5 7 9",
+                "2 4 6"
+            ],
+            "correct": 1,
+            "points": 2,
+            "explanation": "The increment operators advance i in pairs in each loop iteration, resulting in the output 2 4 6 8."
+        },
+        {
+            "question": "For the program given below, what will be the output after its execution?\npublic class Main {\n  public static void main(String[] args) {\n    Thread thread = Thread.currentThread();\n    thread.run();\n    System.out.print(Thread.activeCount());\n  }\n}",
+            "answers": [
+                "1",
+                "2",
+                "0",
+                "01"
+            ],
+            "correct": 0,
+            "points": 2,
+            "explanation": "Thread.activeCount() estimates active threads; here, it returns 1, as only the main thread is running."
+        },
+        {
+            "question": "Which of the following method returns a reference to the currently executing thread object?",
+            "answers": [
+                "public static boolean interrupted();",
+                "public static Thread currentThread();",
+                "public final boolean isAlive();",
+                "public final void suspend();"
+            ],
+            "correct": 1,
+            "points": 2,
+            "explanation": "Only Thread.currentThread() provides a reference to the current executing thread among these answers."
+        },
+        
+            {
+                "question": "Which of these exceptions is thrown in cases when the file specified for writing is not found?",
+                "answers": [
+                    "IOException",
+                    "FileException",
+                    "FileNotFoundException",
+                    "FileInputException"
+                ],
+                "correct": 2,
+                "points": 2,
+                "explanation": "FileNotFoundException is thrown by Java runtime when the specified file is not found. In earlier Java versions, IOException was thrown, but Java 2.0 introduced FileNotFoundException."
+            },
+            {
+                "question": "Which of these values is returned by read() method when end of file (EOF) is encountered?",
+                "answers": [
+                    "0",
+                    "1",
+                    "-1",
+                    "Null"
+                ],
+                "correct": 2,
+                "points": 2,
+                "explanation": "The read() method returns -1 when the end of the file is reached, signaling no more data is available for reading."
+            },
+            {
+                "question": "What will be the output of the following Java program?\nimport java.io.*;\n\nclass Chararrayinput {\npublic static void main(String[] args) {\nString obj = \"abcdef\";\nint length = obj.length();\nchar c[] = new char[length];\nobj.getChars(0, length, c, 0);\nCharArrayReader input1 = new CharArrayReader(c);\nCharArrayReader input2 = new CharArrayReader(c, 0, 3);\nint i;\ntry {\nwhile ((i = input2.read()) != -1) {\nSystem.out.print((char) i);\n}\n} catch (IOException e) {\ne.printStackTrace();\n}\n}\n}",
+                "answers": [
+                    "abc",
+                    "abcd",
+                    "abcde",
+                    "abcdef"
+                ],
+                "correct": 0,
+                "points": 2,
+                "explanation": "The program reads only the first three characters (abc) from input2, so the output is \"abc\"."
+            },
+            {
+                "question": "What is the purpose of a ByteArrayOutputStream in Java?",
+                "answers": [
+                    "To write binary data to an output stream",
+                    "To read binary data from an input stream",
+                    "To convert characters to bytes",
+                    "To store binary data in memory"
+                ],
+                "correct": 3,
+                "points": 2,
+                "explanation": "ByteArrayOutputStream is used to store binary data in memory and provides a byte array that can be manipulated."
+            },
+            {
+                "question": "Which method is used to read b length bytes from the input stream into an array?",
+                "answers": [
+                    "public void read(int b) throws IOException{}",
+                    "public int read(byte[] b) throws IOException{}",
+                    "public void read(byte[] b) throws IOException{}",
+                    "public int read(int b) throws IOException{}"
+                ],
+                "correct": 1,
+                "points": 2,
+                "explanation": "The method public int read(byte[] b) throws IOException reads b length bytes from the input stream into an array."
+            },
+            {
+                "question": "Which method is used to create a directory with file attributes?",
+                "answers": [
+                    "Path.create()",
+                    "Path.createDirectory()",
+                    "Files.createDirectory(path, fileAttributes)",
+                    "Files.create(fileAttributes)"
+                ],
+                "correct": 2,
+                "points": 2,
+                "explanation": "Files.createDirectory(path, fileAttributes) is the method to create a new directory with specified file attributes."
+            },
+            {
+                "question": "What will be the output of the following Java program?\npublic class Calculator {\nint num = 100;\n\npublic void calc(int num) {\nthis.num = num * 10;\n}\n\npublic void printNum() {\nSystem.out.println(num);\n}\n\npublic static void main(String[] args) {\nCalculator obj = new Calculator();\nobj.calc(2);\nobj.printNum();\n}\n}",
+                "answers": [
+                    "20",
+                    "100",
+                    "1000",
+                    "2"
+                ],
+                "correct": 0,
+                "points": 2,
+                "explanation": "The class variable num is updated to 20 inside calc() by using this.num, so printNum() outputs 20."
+            },
+            {
+                "question": "Which class is used to write primitive data types to an output stream in Java?",
+                "answers": [
+                    "DataOutputStream",
+                    "ObjectOutputStream",
+                    "OutputStream",
+                    "PrintWriter"
+                ],
+                "correct": 0,
+                "points": 2,
+                "explanation": "DataOutputStream is used to write primitive data types like int, double, and boolean to an output stream."
+            },
+            {
+                "question": "What will be the output of the following code?\nimport java.io.*;\n\npublic class W7 {\npublic static void main(String[] args) {\ntry {\nPrintWriter writer = new PrintWriter(System.out);\nwriter.write(9 + 97);\nwriter.close();\n} catch (Exception e) {\nSystem.out.println(e);\n}\n}\n}",
+                "answers": [
+                    "It will give compile-time error",
+                    "It will give run-time error",
+                    "j",
+                    "106"
+                ],
+                "correct": 2,
+                "points": 2,
+                "explanation": "The sum 106 corresponds to the Unicode character 'j', so the output will be 'j'."
+            },
+            {
+                "question": "What will be the output of the following code if file.txt contains \"This is Programming in Java online course.\"?\nimport java.io.File;\n\nclass FileSizeExample {\npublic static void main(String[] args) {\nString filePath = \"file.txt\";\nFile file = new File(filePath);\nlong fileSize = file.length();\nSystem.out.println(fileSize);\n}\n}",
+                "answers": [
+                    "42",
+                    "35",
+                    "7",
+                    "0"
+                ],
+                "correct": 0,
+                "points": 2,
+                "explanation": "The file length() method returns the size of the file in bytes, which is 42 for the specified content."
+            },
+                {
+                    "question": "What does AWT stand for in Java?",
+                    "answers": [
+                        "Applet Windowing Toolkit",
+                        "Abstract Window Toolkit",
+                        "Absolute Windowing Toolkit",
+                        "Amazing Window Toolkit"
+                    ],
+                    "correct": 1,
+                    "points": 2,
+                    "explanation": "The Abstract Window Toolkit (AWT) is Java's original platform-dependent windowing, graphics, and user interface widget toolkit, preceding Swing."
+                },
+                {
+                    "question": "In Java, what is the purpose of a Card Layout?",
+                    "answers": [
+                        "To create a card game interface",
+                        "To arrange components in a card-like fashion",
+                        "To manage multiple panels within a single container",
+                        "To display images of cards"
+                    ],
+                    "correct": 2,
+                    "points": 2,
+                    "explanation": "Card Layout allows you to manage multiple panels within a single container, where only one panel is visible at a time."
+                },
+                {
+                    "question": "Which layout manager divides the container into five regions: North, South, East, West, and Center?",
+                    "answers": [
+                        "Border Layout",
+                        "Grid Layout",
+                        "Flow Layout",
+                        "Card Layout"
+                    ],
+                    "correct": 0,
+                    "points": 2,
+                    "explanation": "Border Layout divides the container into five regions, and components can be added to each region: North, South, East, West, and Center."
+                },
+                {
+                    "question": "In Java, what is the primary purpose of a layout manager?",
+                    "answers": [
+                        "To manage memory allocation",
+                        "To arrange GUI components within a container",
+                        "To handle exception handling",
+                        "To control database connections"
+                    ],
+                    "correct": 1,
+                    "points": 2,
+                    "explanation": "A layout manager in Java is responsible for arranging and positioning GUI components within a container."
+                },
+                {
+                    "question": "What will be the output of the Java code provided in the question?",
+                    "answers": [
+                        "Compilation error",
+                        "An empty frame with no button",
+                        "A frame with a button 'Programming in Java - 2024' at coordinates (30, 50)",
+                        "A frame with a button, but not at the specified coordinates"
+                    ],
+                    "correct": 2,
+                    "points": 2,
+                    "explanation": "The code creates a frame and adds a button with the label 'Programming in Java - 2024' at coordinates (30, 50)."
+                },
+                {
+                    "question": "Which layout manager arranges components in a top-to-bottom flow, adding them to the next available position?",
+                    "answers": [
+                        "Grid Layout",
+                        "Flow Layout",
+                        "Border Layout",
+                        "Card Layout"
+                    ],
+                    "correct": 1,
+                    "points": 2,
+                    "explanation": "Flow Layout arranges components in a top-to-bottom, left-to-right flow, adding them to the next available position in the container."
+                },
+                {
+                    "question": "What is the significance of AWT components being heavyweight?",
+                    "answers": [
+                        "They have higher memory requirements",
+                        "They are slower in performance",
+                        "They are dependent on the underlying operating system",
+                        "They are easier to customize"
+                    ],
+                    "correct": 2,
+                    "points": 2,
+                    "explanation": "AWT components being heavyweight means they rely on the native components of the underlying operating system, which can affect their appearance and behavior."
+                },
+                {
+                    "question": "Which AWT concept allows you to handle events such as button clicks or mouse movements?",
+                    "answers": [
+                        "Event Handling",
+                        "Function Overloading",
+                        "Mouse Manager",
+                        "GUI Processing"
+                    ],
+                    "correct": 0,
+                    "points": 2,
+                    "explanation": "Event Handling in AWT enables the response to user actions, such as button clicks or mouse movements, in a graphical user interface."
+                },
+                {
+                    "question": "Which layout manager organizes components in a grid, with each cell of the grid containing a component?",
+                    "answers": [
+                        "Flow Layout",
+                        "Grid Layout",
+                        "Border Layout",
+                        "Card Layout"
+                    ],
+                    "correct": 1,
+                    "points": 2,
+                    "explanation": "Grid Layout organizes components in a grid, and each cell of the grid contains a component. Components are added in a left-to-right, top-to-bottom order."
+                },
+                {
+                    "question": "What is the layout manager used in the Java code provided?",
+                    "answers": [
+                        "Grid Layout",
+                        "Border Layout",
+                        "Flow Layout",
+                        "Card Layout"
+                    ],
+                    "correct": 0,
+                    "points": 2,
+                    "explanation": "The code sets the layout manager of the frame to a 2x2 grid layout using frame.setLayout(new GridLayout(2, 2)). The FlowLayout gets overridden by the GridLayout."
+                }
+            ,
+            
+                {
+                    "question": "Which of the following is a one-line input field that allows the user to choose a number or an object value from an ordered sequence?",
+                    "answers": [
+                        "JTextArea",
+                        "JTextField",
+                        "JSpinner",
+                        "JSlider"
+                    ],
+                    "correct": 2,
+                    "points": 2,
+                    "explanation": "A JSpinner is a one-line input field that allows the user to choose a number or an object value from an ordered sequence."
+                },
+                {
+                    "question": "What is true about the following code?",
+                    "answers": [
+                        "Both 'OK' and 'Cancel' button is added, but only 'Cancel' button is visible.",
+                        "Only 'OK' button is added and visible, 'Cancel' button is not added.",
+                        "Only 'Cancel' button will be added and visible, 'OK' button is not added.",
+                        "Code throws an ERROR."
+                    ],
+                    "correct": 0,
+                    "points": 2,
+                    "explanation": "Due to the default BorderLayout in JFrame, only the last added component ('Cancel' button) is visible."
+                },
+                {
+                    "question": "Which of the following is a container for other components and is used to build bespoke panels for organizing and arranging components?",
+                    "answers": [
+                        "JPanel",
+                        "JFrame",
+                        "JCombo",
+                        "JBox"
+                    ],
+                    "correct": 0,
+                    "points": 2,
+                    "explanation": "JPanel is a container used to organize and arrange other components in a Swing application."
+                },
+                {
+                    "question": "Which of the following component gives a drop-down list of answers from which to choose?",
+                    "answers": [
+                        "JPanel",
+                        "JButton",
+                        "JComboBox",
+                        "JBox"
+                    ],
+                    "correct": 2,
+                    "points": 2,
+                    "explanation": "JComboBox provides a drop-down list for selecting answers."
+                },
+                {
+                    "question": "Which of the following Swing components inherently support the WindowListener interface?",
+                    "answers": [
+                        "Swing frames (JFrame)",
+                        "Swing checkboxes (JCheckBox)",
+                        "None of these",
+                        "Swing combo boxes (JComboBox)"
+                    ],
+                    "correct": 0,
+                    "points": 2,
+                    "explanation": "Swing frames (JFrame) and dialogs (JDialog) support the WindowListener interface for handling window events."
+                },
+                {
+                    "question": "Which class in Swing provides a graphical way to display images, icons, or custom graphics?",
+                    "answers": [
+                        "JImage",
+                        "JLabel",
+                        "JImageIcon",
+                        "JDialog"
+                    ],
+                    "correct": 1,
+                    "points": 2,
+                    "explanation": "JLabel is used for displaying images, icons, or custom graphics within a GUI."
+                },
+                {
+                    "question": "What is/are the way(s) to create a Frame in Java Swing?",
+                    "answers": [
+                        "By creating the object of Frame class (association)",
+                        "None of these",
+                        "By importing a package named JFrame",
+                        "By declaring a class with name JFrame"
+                    ],
+                    "correct": 0,
+                    "points": 2,
+                    "explanation": "Frames in Java Swing can be created by creating an object of the Frame class (association) or by extending the Frame class."
+                },
+                {
+                    "question": "Which method is used to set the graphics current color to the specified color in the Graphics class?",
+                    "answers": [
+                        "public abstract void setFont(Font font)",
+                        "public abstract void setColor(Color c)",
+                        "public abstract void drawString(String str, int x, int y)",
+                        "None of the above"
+                    ],
+                    "correct": 1,
+                    "points": 2,
+                    "explanation": "The setColor(Color c) method sets the current drawing color to the specified color."
+                },
+                {
+                    "question": "When are the keyboard events fired?",
+                    "answers": [
+                        "When the user manually calls the button",
+                        "When the user right clicks the mouse",
+                        "When the user calls the modifier",
+                        "When the user clicks a key"
+                    ],
+                    "correct": 3,
+                    "points": 2,
+                    "explanation": "Keyboard events are triggered when a user presses or releases a key."
+                },
+                {
+                    "question": "Which of the following function is used to specify the layout of a container?",
+                    "answers": [
+                        "UseLayout()",
+                        "setLayout()",
+                        "layout()",
+                        "DesignLayout()"
+                    ],
+                    "correct": 1,
+                    "points": 2,
+                    "explanation": "The setLayout() function is used to specify the layout manager of a container."
+                },
+                
+                    {
+                        "question": "What will be the output of the following Java program?",
+                        "answers": [
+                            "Protocol: https",
+                            "Host Name: nptel.ac.in",
+                            "Port Number: -1",
+                            "All of the mentioned"
+                        ],
+                        "correct": 3,
+                        "points": 2,
+                        "explanation": "The output includes the protocol (https), host name (nptel.ac.in), and the default port number (-1) since no port is specified."
+                    },
+                    {
+                        "question": "What will be the output of the following Java program?",
+                        "answers": [
+                            "nptel",
+                            "nptel.ac.in",
+                            "www.nptel.ac.in",
+                            "None of the mentioned"
+                        ],
+                        "correct": 1,
+                        "points": 2,
+                        "explanation": "The getHostName() method returns the hostname, which is 'nptel.ac.in' for this URL."
+                    },
+                    {
+                        "question": "Which class provides methods to work with URLs?",
+                        "answers": [
+                            "URLConnection",
+                            "HttpURL",
+                            "NetURL",
+                            "URL"
+                        ],
+                        "correct": 3,
+                        "points": 2,
+                        "explanation": "The URL class provides methods for working with Uniform Resource Locators in Java."
+                    },
+                    {
+                        "question": "Which exception is thrown when a connection cannot be established with a remote server?",
+                        "answers": [
+                            "IOException",
+                            "UnknownHostException",
+                            "ConnectionException",
+                            "NetworkException"
+                        ],
+                        "correct": 1,
+                        "points": 2,
+                        "explanation": "UnknownHostException is thrown when the IP address of a host cannot be determined, preventing a connection."
+                    },
+                    {
+                        "question": "Which class provides methods to create a client-side socket in Java?",
+                        "answers": [
+                            "ServerSocket",
+                            "NetSocket",
+                            "Socket",
+                            "ClientSocket"
+                        ],
+                        "correct": 2,
+                        "points": 2,
+                        "explanation": "The Socket class in the java.net package is used to create client-side socket connections."
+                    },
+                    {
+                        "question": "Which of the following statement is TRUE?",
+                        "answers": [
+                            "With stream sockets there is no need to establish any connection and data flows as continuous streams.",
+                            "Stream sockets are connection-less and use UDP protocol.",
+                            "Datagram sockets provide a connection-oriented service with TCP protocol.",
+                            "With datagram sockets there is no need to establish a connection, and data flows as packets."
+                        ],
+                        "correct": 3,
+                        "points": 2,
+                        "explanation": "Datagram sockets are connection-less and transmit data in packets, typically using UDP."
+                    },
+                    {
+                        "question": "The server listens for a connection request from a client using which of the following statements?",
+                        "answers": [
+                            "Socket s = new Socket(ServerName, port);",
+                            "Socket s = serverSocket.accept()",
+                            "Socket s = serverSocket.getSocket()",
+                            "Socket s = new Socket(ServerName);"
+                        ],
+                        "correct": 1,
+                        "points": 2,
+                        "explanation": "In a server-client connection, the server uses serverSocket.accept() to accept client requests."
+                    },
+                    {
+                        "question": "Which of the following is/are application layer protocol(s)?",
+                        "answers": [
+                            "TCP",
+                            "UDP",
+                            "ARP",
+                            "SMTP"
+                        ],
+                        "correct": 3,
+                        "points": 2,
+                        "explanation": "SMTP is an application layer protocol, while TCP and UDP are transport layer protocols, and ARP is a network layer protocol."
+                    },
+                    {
+                        "question": "In the following URL, identify the Resource name?",
+                        "answers": [
+                            "https",
+                            "nptel.ac.in",
+                            "ac.in",
+                            "nptel"
+                        ],
+                        "correct": 1,
+                        "points": 2,
+                        "explanation": "The resource name or domain in the URL 'https://nptel.ac.in' is 'nptel.ac.in'."
+                    },
+                    {
+                        "question": "What does this Java code snippet do?",
+                        "answers": [
+                            "Just prints the IP address of the local machine",
+                            "Prints the IP address and host name of the local machine",
+                            "Prints the IP address and host name of 'nptel.ac.in'",
+                            "Just prints the IP address of 'nptel.ac.in'"
+                        ],
+                        "correct": 2,
+                        "points": 2,
+                        "explanation": "The code retrieves and prints both the IP address and hostname of 'nptel.ac.in'."
+                    }
+                ,
+                
+                    {
+                        "question": "How do you establish a connection to a database using JDBC?",
+                        "answers": [
+                            "By creating an instance of the Connection interface",
+                            "By using the DriverManager.getConnection() method",
+                            "By implementing the Connection interface",
+                            "By extending the Connection class"
+                        ],
+                        "correct": 1,
+                        "points": 2,
+                        "explanation": "To connect to a database in JDBC, use the DriverManager.getConnection() method, which requires the JDBC URL, username, and password as parameters and returns a Connection object."
+                    },
+                    {
+                        "question": "Which method executes a simple query and returns a single Result Set object?",
+                        "answers": [
+                            "executeQuery()",
+                            "executeUpdate()",
+                            "execute()",
+                            "run()"
+                        ],
+                        "correct": 0,
+                        "points": 2,
+                        "explanation": "executeQuery() is specifically used to execute SQL queries that return a single ResultSet, representing the data returned by the query."
+                    },
+                    {
+                        "question": "What is the correct order to close database resources?",
+                        "answers": [
+                            "Connection then Statement then ResultSet",
+                            "ResultSet then Statement then Connection",
+                            "Statement then Connection then ResultSet",
+                            "Statement then ResultSet then Connection"
+                        ],
+                        "correct": 1,
+                        "points": 2,
+                        "explanation": "The recommended order for closing database resources is to close ResultSet first, then Statement, and finally Connection, ensuring proper release of resources."
+                    },
+                    {
+                        "question": "Which of the following ensures that the correct driver is used to access each data source?",
+                        "answers": [
+                            "java.sql.Connection",
+                            "java.sql.DriverManager",
+                            "java.sql.Statement",
+                            "java.sql.Driver"
+                        ],
+                        "correct": 1,
+                        "points": 2,
+                        "explanation": "DriverManager manages a list of database drivers and is responsible for establishing database connections using the correct driver."
+                    },
+                    {
+                        "question": "What is the purpose of the ResultSet interface in JDBC?",
+                        "answers": [
+                            "To store the result of a query",
+                            "To execute SQL queries",
+                            "To manage database connections",
+                            "To update data in the database"
+                        ],
+                        "correct": 0,
+                        "points": 2,
+                        "explanation": "ResultSet is an interface that represents the result of a SQL query and provides methods to retrieve and navigate data from the query results."
+                    },
+                    {
+                        "question": "Which of the following statement is FALSE in the context of the JDBC connection string example?",
+                        "answers": [
+                            "3306 is the default MySQL port.",
+                            "Database name is 'nptel'",
+                            "The database server is hosted on IP 127.0.0.1",
+                            "Password for 'java' user is 'joy'"
+                        ],
+                        "correct": 3,
+                        "points": 2,
+                        "explanation": "In the JDBC example, 'joy' is the username, and 'java' is the password. The incorrect statement reverses the username and password."
+                    },
+                    {
+                        "question": "Which resources have their close() method called when this code runs?",
+                        "answers": [
+                            "No close() methods are called",
+                            "Only Statement",
+                            "Only Statement and Connection",
+                            "Only Statement and ResultSet"
+                        ],
+                        "correct": 3,
+                        "points": 2,
+                        "explanation": "Using try-with-resources ensures that Statement is closed automatically, and closing Statement automatically closes the ResultSet it created."
+                    },
+                    {
+                        "question": "Which of the following is used to call stored procedure?",
+                        "answers": [
+                            "Statement",
+                            "PreparedStatement",
+                            "CallableStatement",
+                            "CalledStatement"
+                        ],
+                        "correct": 2,
+                        "points": 2,
+                        "explanation": "CallableStatement is used in JDBC to call stored procedures within a database."
+                    },
+                    {
+                        "question": "The executeUpdate method can be used with which operations?",
+                        "answers": [
+                            "Statements(Select and Update both)",
+                            "Select statement",
+                            "Update/delete/insert operations in the database",
+                            "Only insert operation"
+                        ],
+                        "correct": 2,
+                        "points": 2,
+                        "explanation": "executeUpdate is used for SQL statements that alter data, such as UPDATE, DELETE, and INSERT operations."
+                    },
+                    {
+                        "question": "What does setAutoCommit(false) do?",
+                        "answers": [
+                            "Commits transaction after each query",
+                            "Explicitly commits transaction",
+                            "Does not commit transaction automatically after each query",
+                            "Never commits transaction"
+                        ],
+                        "correct": 2,
+                        "points": 2,
+                        "explanation": "setAutoCommit(false) disables automatic commits, allowing transactions to be controlled manually, which can improve performance."
+                    },
+                    
+
+                        {
+                            "question": "Execution of the following SQL command SELECT * FROM myTable using JDBC program will return a ResultSet object. This object is:",
+                            "answers": [
+                                "Same as the myTable.",
+                                "All records in verbatim from the table.",
+                                "All records in verbatim from the table but those records with null values.",
+                                "All records in verbatim from the table but those records are not with null values."
+                            ],
+                            "correct": 1,
+                            "points": 2,
+                            "explanation": "When executing an SQL SELECT query using JDBC, the result is returned as a ResultSet object containing all the records (rows) returned by the SELECT query from the specified table without filtering based on null values."
+                        },
+                        {
+                            "question": "Which of the following method is used to set a frame, f with size 300 × 200 pixels? JFrame f = new JFrame();",
+                            "answers": [
+                                "f.setSize(300, 200);",
+                                "f.setSize(200, 300);",
+                                "f.paint(300, 200);",
+                                "f.setVisible(300, 200);"
+                            ],
+                            "correct": 0,
+                            "points": 2,
+                            "explanation": "The method setSize(int width, int height) is used to set the size of a JFrame in Java Swing. Option 'a' sets the JFrame 'f' to 300 × 200 pixels."
+                        },
+                        {
+                            "question": "Consider the following program: public class Question { public static void main(String[] args) { String str = 'NPTEL - Programming in JAVA - JULY 2024'; System.out.println(str.length()); } } What is the output?",
+                            "answers": [
+                                "38",
+                                "39",
+                                "40",
+                                "41"
+                            ],
+                            "correct": 1,
+                            "points": 2,
+                            "explanation": "The program calculates and prints the length of 'NPTEL - Programming in JAVA - JULY 2024', which has 39 characters, including spaces and hyphens."
+                        },
+                        {
+                            "question": "What is the output of the following program? public class Test { public static void aMethod() throws Exception { try { throw new Exception(); } finally { System.out.print('finally '); } } public static void main(String args[]) { try { aMethod(); } catch (Exception e) { System.out.print('exception '); } System.out.print('finished '); } }",
+                            "answers": [
+                                "finally",
+                                "exception finished",
+                                "finally exception finished",
+                                "Compilation fails"
+                            ],
+                            "correct": 2,
+                            "points": 2,
+                            "explanation": "The program is syntactically correct and executes in the following order: the 'finally' block in 'aMethod' prints 'finally', the 'catch' block in 'main' prints 'exception', and finally 'finished' is printed."
+                        },
+                        {
+                            "question": "What is the output of the following program? class Program { public static void main(String[] args) { int counter = 10; do { System.out.print(2 / counter); counter--; } while (counter > 2); }",
+                            "answers": [
+                                "00000012",
+                                "00000000",
+                                "10011001",
+                                "12211221"
+                            ],
+                            "correct": 1,
+                            "points": 2,
+                            "explanation": "The program uses a do-while loop to print the result of '2 / counter' as counter decreases from 10 to 3. Each division yields 0 due to integer division, so the output is '00000000'."
+                        },
+                        {
+                            "question": "What should be the value of X and Y for the output of the below program to be 36? public class Question { public static void main(String[] args) { int X = 4; int Y = 5; int sum = 0; for (int i = 0; i < X; i++) { for (int j = i; j < Y; j++) { sum = sum + j; } } System.out.print(sum); }",
+                            "answers": [
+                                "X = 6 and Y = 5",
+                                "X = 2 and Y = 7",
+                                "X = 1 and Y = 10",
+                                "X = 4 and Y = 5"
+                            ],
+                            "correct": 3,
+                            "points": 2,
+                            "explanation": "For X = 4 and Y = 5, the nested loop sums values to produce an output of 36."
+                        },
+                        {
+                            "question": "Which of the following answers correctly initializes the elements of the numbers array with values 1, 2, 3, 4, and 5? public class NPTEL { public static void main(String[] args) { int[] numbers = new int[5]; // #1 : Missing code block System.out.println('First element: ' + numbers[0]); }",
+                            "answers": [
+                                "numbers = {1, 2, 3, 4, 5};",
+                                "for (int i = 1; i < numbers.length; i++) { numbers[i] = i; }",
+                                "numbers[] = {1, 2, 3, 4, 5};",
+                                "numbers = new int[]{1, 2, 3, 4, 5};"
+                            ],
+                            "correct": 3,
+                            "points": 2,
+                            "explanation": "Option 'd' initializes the 'numbers' array with values 1, 2, 3, 4, and 5 using array initializer syntax."
+                        },
+                        {
+                            "question": "Which of the following statements are correct and would NOT cause a compilation error? i. float[] = new float(3); ii. float f1[] = new float[]; iii. float[] f2 = new float[3]; iv. float f3[] = new float[3]; v. float f4[] = { 1.0f, 2.0f, 2.0f }; vi. float f5[] = new float[] { 1.0f, 2.0f, 3.0f};",
+                            "answers": [
+                                "iii, iv, v, vi",
+                                "i, ii, iii, iv",
+                                "ii, iii, v, vi",
+                                "i, ii, iv, vi"
+                            ],
+                            "correct": 0,
+                            "points": 2,
+                            "explanation": "Answers 'iii', 'iv', 'v', and 'vi' are syntactically correct for declaring an array."
+                        },
+                        {
+                            "question": "What will be the output of this program? public class NPTEL { public static void main(String[] args) { String str1 = 'Hello'; String str2 = 'Hello'; String str3 = new String('Hello'); System.out.print((str1 == str2) + ' '); System.out.print(str1 == str3); }",
+                            "answers": [
+                                "true false",
+                                "false true",
+                                "true true",
+                                "false false"
+                            ],
+                            "correct": 0,
+                            "points": 2,
+                            "explanation": "str1 and str2 are interned to the same memory location, so str1 == str2 is true. str3, created with 'new', is stored in a different location, so str1 == str3 is false."
+                        },
+                        {
+                            "question": "What will be the output of this program? public class NPTEL { public static void main(String[] args) { try { int num = 10 / 0; System.out.println(num); } catch (ArithmeticException e) { System.out.println('Arithmetic exception occurred'); } finally { System.out.println('Finally block executed'); } }",
+                            "answers": [
+                                "Compilation ERROR",
+                                "“Finally block executed”",
+                                "“Arithmetic exception occurred Finally block executed”",
+                                "Runtime ERROR"
+                            ],
+                            "correct": 2,
+                            "points": 2,
+                            "explanation": "Division by zero throws an ArithmeticException, caught in the catch block, which prints 'Arithmetic exception occurred'. The finally block is executed afterward, printing 'Finally block executed'."
+                        }
+                ]
