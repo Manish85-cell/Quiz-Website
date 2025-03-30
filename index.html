@@ -80,8 +80,9 @@
     <h1>Quiz Selection</h1>
     <div id="subject-selection">
         <h2>Select Subject</h2>
-        <button onclick="selectSubject('Psychology')">Psychology</button>
-        <button onclick="selectSubject('Java Programming')">Java Programming</button>
+        <button onclick="selectSubject('e-business')">E-Business</button>
+        <button onclick="selectSubject('psychology')">Psychology</button>
+        <button onclick="selectSubject('java')">Java Programming</button>
     </div>
     <div id="quiz-selection" style="display: none;">
         <h2>Select Quiz Size</h2>
@@ -146,7 +147,7 @@
     //         .catch(error => console.error('Error loading questions:', error));
     // }
     function loadRandomQuestions(subject, count) {
-        const fileName = subject === 'Psychology' ? 'psychology_questions.json' : 'java_questions.json';
+        const fileName = "questions/"+subject+".json"
 
         fetch(fileName)
             .then(response => {

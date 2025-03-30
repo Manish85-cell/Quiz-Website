@@ -1,0 +1,112 @@
+[
+    {
+        "question": "The key to generating high customer loyalty is",
+        "answers": [
+            "Give products at a very low price",
+            "Give special offers",
+            "Deliver high customer value",
+            "None of the above"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "Decathlon sells its own products on its own website. What kind of a business model is this?",
+        "answers": [
+            "Merchant model",
+            "Direct model",
+            "Affiliation model",
+            "Community model"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "What is the fundamental difference between an order given by a customer and a delivery given to the customer?",
+        "answers": [
+            "Order is the flow of information while delivery is the flow of the product.",
+            "Order is the flow of product while delivery is the flow of information.",
+            "Both order and delivery are flows of product.",
+            "Both order and delivery are the flows of information."
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "You wanted to purchase some good refurbished office essentials and were waiting for a great deal. On an odd day, you started browsing 'eBay' and came across an auction for the item that you were exactly looking for. What do you think is the type of E-Business transaction 'eBay' is following in this case?",
+        "answers": [
+            "B2B",
+            "B2C",
+            "C2C",
+            "C2B"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "The whole process of integrating the traditional Brick and Mortar Business with e-Business involves several types of business models. Which among the following options represent the best scenario for a G2B model?",
+        "answers": [
+            "Answering public queries, Asking for suggestion from citizens",
+            "Registration, renewal of licenses",
+            "Selling product to government buyers",
+            "E-payment between government organizations"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Aman searches for canvas shoes in Google, and immediately a list of all the e-commerce websites which are selling canvas shoes starts appearing. How does Google list these advertisements?",
+        "answers": [
+            "Google does auction on AdWords and accordingly arranges the advertisements on the screen.",
+            "Google screens out the most popular items for advertisements.",
+            "Google just places them randomly based on the keyword searched.",
+            "All of the above."
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "The online auction site 'eBay' connects seller and buyer. It also started its own payment service through 'PayPal'. What was the primary reason behind it?",
+        "answers": [
+            "eBay wanted to earn more profits through transaction charges.",
+            "eBay wanted to decrease online fraud by holding back the payment to the seller till buyer’s certification.",
+            "eBay was incurring huge losses before tying up with PayPal.",
+            "None of the above."
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Hotstar entertainment platform is an example of what kind of business model?",
+        "answers": [
+            "Affiliate model",
+            "Advertisement model",
+            "Subscription model",
+            "Direct model"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "What was the major intention behind formulating the ITC’s e-Choupal Initiative?",
+        "answers": [
+            "To make the farmers able to access the World Wide Web through a site dedicated specifically for them.",
+            "To have direct collaboration with farmers.",
+            "To make the farmers aware of price trends.",
+            "All of the above"
+        ],
+        "correct": 3,
+        "points": 1
+    },
+    {
+        "question": "Some firms assist buyers and/or sellers to understand a given market, do comparative purchasing or conduct targeted market campaigns. This business model is called",
+        "answers": [
+            "Affiliate model",
+            "Community model",
+            "Infomediary model",
+            "Brokerage model"
+        ],
+        "correct": 2,
+        "points": 1
+    }
+]

@@ -1,0 +1,1218 @@
+[
+    {
+      "question": "Valence, or the perceived value of a reward, would have ___ value if one wants to avoid that reward.",
+      "answers": [
+        "One",
+        "Zero",
+        "Positive",
+        "Negative"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "___ refers to the internal or external responses to a person's behavior that affect the likelihood of continuing or discontinuing the behavior.",
+      "answers": [
+        "Modeling",
+        "Schemas",
+        "Awards",
+        "Reinforcements"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "___ role of the trainer consists of transmitting information about a subject to the audience.",
+      "answers": [
+        "Expert",
+        "Instructor",
+        "Facilitator",
+        "Co-learner"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "In a concept map, two nodes connected with a labeled arrow are called a ___.",
+      "answers": [
+        "Preposition",
+        "Nodal link",
+        "Schema",
+        "Proposition"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "Which of the following is a way of facilitating the social dimension to learning?",
+      "answers": [
+        "E-mails",
+        "Online discussions",
+        "Virtual communities",
+        "All of the given"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "The concept of emotional contagion can be linked to biological basis of ___.",
+      "answers": [
+        "Emotional neurons",
+        "Mirror neurons",
+        "Contagious neurons",
+        "None of the given"
+      ],
+      "correct": 1,
+      "points": 2
+    },
+    {
+      "question": "Both formative and summative assessment are important and useful, provided they are applied and interpreted appropriately.",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "Which of the following is not a causal factor for extrinsic motivation?",
+      "answers": [
+        "Rewards",
+        "Social pressure",
+        "Curiosity",
+        "Financial gain",
+        "Punishment"
+      ],
+      "correct": 2,
+      "points": 2
+    },
+    {
+      "question": "Which of the following is not true about e-learning?",
+      "answers": [
+        "One can have access to the content any number of times",
+        "It helps in developing new policies",
+        "It saves time for the students, they don’t need to travel to the institution",
+        "It is targeted to cater to the needs of students specifically"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "Social processes influence how information is selected, organized, integrated, and retrieved. This highlights the ___ hypothesis.",
+      "answers": [
+        "Social cue",
+        "Cognitive influence",
+        "Schema influence",
+        "Social mediation"
+      ],
+      "correct": 1,
+      "points": 2
+    },
+    {
+      "question": "___ theory suggests that people are motivated to take action in order to receive a reward and is based on the idea of operant conditioning.",
+      "answers": [
+        "Incentive",
+        "Arousal",
+        "Goal setting",
+        "None of the given"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "When someone engages in ___, they can regulate their emotions to ensure that others feel more comfortable.",
+      "answers": [
+        "Emotional exhaustion",
+        "Emotional literacy",
+        "Empathy",
+        "Emotional labor"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "As learning depends on the learner’s prior experience, and no two learners will have the same experiences, new information will be dealt with in different ways by different learners. This statement means that learning is ___.",
+      "answers": [
+        "Goal-oriented",
+        "Dependent on self-awareness",
+        "Social",
+        "Idiosyncratic"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "Learners may multitask when engaging in an online course, which could be resulting in ___.",
+      "answers": [
+        "Hyperfocus",
+        "Better retrieval",
+        "Shorter attention spans",
+        "None of the given"
+      ],
+      "correct": 2,
+      "points": 2
+    },
+    {
+      "question": "The Pyramid of Emotional Intelligence is also known as the ___ layer model.",
+      "answers": [
+        "Nine",
+        "Five",
+        "Seven",
+        "Eleven"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "Which of the following is not a component of the ADDIE model?",
+      "answers": [
+        "Analysis",
+        "Integration",
+        "Development",
+        "Evaluation"
+      ],
+      "correct": 1,
+      "points": 2
+    },
+    {
+      "question": "‘’That is an intelligent response, well done’’ is an example of a ___ level feedback.",
+      "answers": [
+        "Task-level",
+        "Process-level",
+        "Facilitator-level",
+        "Personal-level"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "Which of the following impacts student learning?",
+      "answers": [
+        "Their perception about their intelligence and ability",
+        "Prior knowledge",
+        "Their context",
+        "All of the given"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "Which of the following is not true about humanistic orientations to learning?",
+      "answers": [
+        "It has a quality of personal involvement",
+        "It is self-initiated",
+        "It is pervasive",
+        "The locus of evaluation resides definitely outside the learner"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "Clapping is an example of ___ reward.",
+      "answers": [
+        "Tangible",
+        "Financial",
+        "Social",
+        "None of the given"
+      ],
+      "correct": 2,
+      "points": 2
+    },
+    {
+      "question": "The social cognitive theory is developed by ___",
+      "answers": [
+        "Watson",
+        "Piaget",
+        "Bandura",
+        "Freud"
+      ],
+      "correct": 2,
+      "points": 2
+    },
+    {
+      "question": "Which of the following is not an effective way to develop reflective thinking?",
+      "answers": [
+        "Asking questions",
+        "Self-questioning",
+        "Negotiated learning",
+        "Avoiding reflective discussions"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "Self-Determination Theory differentiates between ___ and ___ motivation types.",
+      "answers": [
+        "Autonomous and controlled",
+        "Autonomous and intrinsic",
+        "Controlled and extrinsic",
+        "Introjected and extrinsic",
+        "Introjected and intrinsic"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "Drive theory is a psychological concept that attempts to explain why and how people behave in the ways they do. It is given by ___.",
+      "answers": [
+        "Murray",
+        "Hull",
+        "Atkinson",
+        "Zajonc"
+      ],
+      "correct": 1,
+      "points": 2
+    },
+    {
+      "question": "In the context of sustainability, HESI highlights the role of ___ in building a better world for current and future generations",
+      "answers": [
+        "Financial stability",
+        "Higher education",
+        "Climate change",
+        "Natural resources"
+      ],
+      "correct": 1,
+      "points": 2
+    },
+    {
+      "question": "___ refers to realizing the value of developing a skill/behavior.",
+      "answers": [
+        "Amotivation",
+        "Identified regulation",
+        "Introjected regulation",
+        "Motivational learning"
+      ],
+      "correct": 1,
+      "points": 2
+    },
+    {
+      "question": "The word 'pedagogy' has been derived from the Greek word 'pedagogue' which stands for___",
+      "answers": [
+        "The science of learning",
+        "The art of observing",
+        "The art of teaching children",
+        "None of the given"
+      ],
+      "correct": 2,
+      "points": 2
+    },
+    {
+      "question": "Which of the following is false regarding social cognition?",
+      "answers": [
+        "It develops in childhood and adolescence",
+        "When looking at a social situation, any two people may have wildly different interpretations",
+        "It includes complex abilities like theory of mind",
+        "There are no cultural differences in social cognition"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "The cognitive load theory suggests that when we overload our___, we are unable to acquire and process new information.",
+      "answers": [
+        "Sensory memory",
+        "Encoding",
+        "Retrieval",
+        "Working memory"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "During the earliest stages of development, children see the world from their own perspective and struggle to think about how other people may view the world. This highlights that initially, children are ___",
+      "answers": [
+        "Egocentric",
+        "Idiosyncratic",
+        "Egoistic",
+        "Egomaniac"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "There are five critical aspects of psychology which are needed to guarantee the implementation of successful eLearning. Which of the following is not one of them?",
+      "answers": [
+        "Evolution",
+        "Self-discipline",
+        "Stress",
+        "Emotion"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "In 2018, Global Education and Skills Forum noted that the 'future' teacher would need some skills to thrive in the 21st century. Which of the following is not one of them?",
+      "answers": [
+        "Being a facilitator",
+        "Internal focus",
+        "Strong social skills",
+        "Data analysis"
+      ],
+      "correct": 1,
+      "points": 2
+    },
+    {
+      "question": "___ refers to the frequent, interactive assessment of student progress to identify learning needs and shape teaching.",
+      "answers": [
+        "Formative assessment",
+        "Summative assessment",
+        "Collective assessment",
+        "None of the given"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "___ as a practice is defined as solving social problems using market-based methods and can create both economic and social value",
+      "answers": [
+        "Social entrepreneurship",
+        "Economic entrepreneurship",
+        "Social marketing",
+        "Social economics"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "___ learners prefer maps, graphs, diagrams and charts to learn.",
+      "answers": [
+        "Visual",
+        "Solitary",
+        "Kinesthetic",
+        "Auditory"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "Piaget’s conception of ___ views information inconsistent with an individual’s cognitive structures as an initiator for assimilation and accommodation processes.",
+      "answers": [
+        "Assimilation and accommodation schema",
+        "Cognitive determinism",
+        "Reciprocal dynamism",
+        "Cognitive conflict"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "GAP in the context of Education for Sustainable Development stands for ___",
+      "answers": [
+        "General Activity Priority",
+        "Global Action Programme",
+        "Global Achievement Programme",
+        "General Awareness Programme"
+      ],
+      "correct": 1,
+      "points": 2
+    },
+    {
+      "question": "Observational learning occurs through the sequence of ___ number of processes. One of those is attentional processes.",
+      "answers": [
+        "Four",
+        "Five",
+        "Six",
+        "Seven"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "Which of the following is not true about Maslow’s need hierarchy?",
+      "answers": [
+        "Needs lower down in the hierarchy must be satisfied before individuals can attend to higher needs",
+        "Safety needs lie at the bottom of the pyramid",
+        "Deficiency needs are concerned with basic survival",
+        "Growth needs are more psychological needs",
+        "Motivation is seen as being not just concerned with tension reduction and survival but also with human growth and development"
+      ],
+      "correct": 1,
+      "points": 2
+    },
+    {
+      "question": "One of the means to implement SDG 4 is exponentially increasing the number of scholarships available to developing contexts",
+      "answers": [
+        "False",
+        "True"
+      ],
+      "correct": 1,
+      "points": 2
+    },
+    {
+      "question": "We can say that when we're good at something after practice, it's usually because ___",
+      "answers": [
+        "Our brain has become automated",
+        "Our brain has released better chemicals",
+        "Our brain has made stronger connections with this information",
+        "Our brain has prioritized this information over others"
+      ],
+      "correct": 2,
+      "points": 2
+    },
+    {
+      "question": "Young children engaging in imaginative play often engage in ___ thinking.",
+      "answers": [
+        "Creative",
+        "Divergent",
+        "Symbolic",
+        "Convergent"
+      ],
+      "correct": 2,
+      "points": 2
+    },
+    {
+      "question": "The 'what is important?' stage of the experiential learning process refers to the ___ stage",
+      "answers": [
+        "Processing",
+        "Generalizing",
+        "Application",
+        "Reflecting"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "Which of the following is not true about creative thinking?",
+      "answers": [
+        "It is the ability to consider something in a new way",
+        "It is not a skill anybody can develop",
+        "It is the process of nurturing our imagination",
+        "It is all about developing innovative solutions to problems",
+        "It requires a compilation of analytical, problem-solving, organizational, and communication skills"
+      ],
+      "correct": 1,
+      "points": 2
+    },
+    {
+      "question": "___ knowledge refers to knowledge of terminology and specific details.",
+      "answers": [
+        "Factual",
+        "Conceptual",
+        "Procedural",
+        "Metacognitive"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "___ suggests that our behavior, personal factors, and environmental factors all influence each other.",
+      "answers": [
+        "Environmental dynamism",
+        "Reciprocal determinism",
+        "Collective determinism",
+        "Reciprocal dynamism"
+      ],
+      "correct": 1,
+      "points": 2
+    },
+    {
+      "question": "___ refers to the ability to understand and evaluate multiple possible futures to deal with risks and changes",
+      "answers": [
+        "Anticipatory competency",
+        "Collaboration competency",
+        "Normative competency",
+        "Systems thinking competency"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "The concept of situated learning is studied under which school of thought of learning theories?",
+      "answers": [
+        "Behaviorist",
+        "Cognitive",
+        "Humanistic",
+        "Social"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "The Readiness Model for New Normal in Education designed by many educational institutions caters to the following components except ___",
+      "answers": [
+        "Parent readiness",
+        "Learner readiness",
+        "Society readiness",
+        "Teacher readiness"
+      ],
+      "correct": 2,
+      "points": 2
+    },
+    {
+      "question": "EI can be developed at any stage of life through self-effort & training.",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "The management of emotions is ___.",
+      "answers": [
+        "A private act",
+        "Influenced by cultural and social norms",
+        "Done by actively shaping and directing feelings",
+        "All of the given"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "In achievement motivation, the motive to avoid failure often consists of ___.",
+      "answers": [
+        "Worries about the consequences of failing",
+        "Self-criticism",
+        "Accelerated heart rate",
+        "All of the given"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "Which of the following is not true about metacognition?",
+      "answers": [
+        "Allows people to be dependent on others for their learning",
+        "Often referred to as 'thinking about thinking'",
+        "Is crucial for efficient independent learning because it fosters self-reflection",
+        "Is a regulatory system that helps a person understand and control his or her own cognitive performance"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "People experience the ___ experience when they find the solution to a problem suddenly that had been in their mind for hours or days, late.",
+      "answers": [
+        "“Oh no”",
+        "“Wow”",
+        "“Aha”",
+        "None of the given"
+      ],
+      "correct": 2,
+      "points": 2
+    },
+    {
+      "question": "Which of the following is a primary role of the instructor in experiential learning?",
+      "answers": [
+        "Posing problems",
+        "Providing solutions",
+        "Blurring boundaries",
+        "None of the given"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "E-learning implies ___ learning",
+      "answers": [
+        "Mentor assisted",
+        "Teacher enhanced",
+        "Computer enhanced",
+        "Electricity enhanced"
+      ],
+      "correct": 2,
+      "points": 2
+    },
+    {
+      "question": "In transformative learning, ___ includes a student’s habit of the mind, as well as a personal point of view.",
+      "answers": [
+        "Intentional content",
+        "Frame of reference",
+        "Frame of context",
+        "None of the given"
+      ],
+      "correct": 1,
+      "points": 2
+    },
+    {
+      "question": "The ___ learning style as given by Kolb suggests that these individuals prefer to look at things from multiple perspectives and prefer to watch rather than do.",
+      "answers": [
+        "Assimilating",
+        "Accommodating",
+        "Converging",
+        "Diverging"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "The Yerkes Dodson law gives ___ relationship between arousal and performance.",
+      "answers": [
+        "Inverted U-shaped",
+        "Linear",
+        "No",
+        "Parabolic"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "The three main types of thinking in psychology include the following except ___",
+      "answers": [
+        "Symbolic",
+        "Creative",
+        "Divergent",
+        "Convergent"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "Effective instruction is ___.",
+      "answers": [
+        "Interactive, generative and dynamic",
+        "Designed to accommodate student learning needs and styles",
+        "Guided by general pedagogical approaches",
+        "Eclectic",
+        "All of the given"
+      ],
+      "correct": 4,
+      "points": 2
+    },
+    {
+      "question": "Revenue generation and resource use are components of ___",
+      "answers": [
+        "Environmental sustainability",
+        "Social sustainability",
+        "Financial sustainability",
+        "Economic sustainability"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "The expectancy theory is based on the assumption that ___.",
+      "answers": [
+        "Our behavior is based on making a conscious choice from a set of possible alternative behaviors",
+        "Individuals are motivated to seek out stimulation when they have low levels of arousal, but will become bored and unmotivated when they become too highly aroused",
+        "Biological needs produce unpleasant states of arousal which people seek to reduce",
+        "None of the given"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "___ refers to how tuned to the emotions of others a person is.",
+      "answers": [
+        "Empathy",
+        "Motivation",
+        "Emotional literacy",
+        "Self-regulation"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "___ is the process of judging the value or worth of an individual's achievements or characteristics.",
+      "answers": [
+        "Goal-setting",
+        "Classroom conduct",
+        "Formation",
+        "Evaluation"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "___ type of e-learning is highly interactive, which includes graphics, video, audio and games too.",
+      "answers": [
+        "Text driven",
+        "Simulation",
+        "Interactive",
+        "None of the given"
+      ],
+      "correct": 1,
+      "points": 2
+    },
+    {
+      "question": "___ learners search for connections, causes, patterns, and results in their learning.",
+      "answers": [
+        "Linguistic",
+        "Kinesthetic",
+        "Visual",
+        "Logical"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "The ___ stage of the creative thinking process refers to the 'eureka' moment.",
+      "answers": [
+        "Insight",
+        "Incubation",
+        "Evaluation",
+        "Preparation",
+        "Elaboration"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "The following factors influence preferred learning styles except___",
+      "answers": [
+        "Career choice",
+        "Personality",
+        "Educational specialization",
+        "Genes"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "The following are advantages of developing emotional intelligence, except ___",
+      "answers": [
+        "Being able to accept criticism and responsibility",
+        "Knowing why we do the things we do",
+        "Being able to say no when we need to",
+        "Being able to hide our feelings from others"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "___ is a form of active learning that starts by posing questions, problems, or scenarios rather than simply presenting established facts or portraying a smooth path to knowledge.",
+      "answers": [
+        "Constructivist learning",
+        "Passive learning",
+        "Inquiry-based learning",
+        "Metalearning"
+      ],
+      "correct": 2,
+      "points": 2
+    },
+    {
+      "question": "___ is seen when workers change their outward emotional expressions but do not attempt to feel the emotions that they are displaying.",
+      "answers": [
+        "Deep acting",
+        "Emotional contagion",
+        "Surface acting",
+        "Emotional literacy"
+      ],
+      "correct": 2,
+      "points": 2
+    },
+    {
+      "question": "Which of the following statements is not true about pedagogy?",
+      "answers": [
+        "It assists both students and teachers in gaining an in-depth understanding of fundamental material",
+        "It is about suppressing responses from learners",
+        "It enhances the student-teacher relationship",
+        "It enables teachers to influence student learning with an intention to capture the attention of students"
+      ],
+      "correct": 1,
+      "points": 2
+    },
+    {
+      "question": "___ defined learning as ‘a change in human disposition or capacity that persists over a period of time and is not simply ascribable to processes of growth.",
+      "answers": [
+        "Bloom",
+        "Dewey",
+        "Gagne",
+        "Kolb"
+      ],
+      "correct": 2,
+      "points": 2
+    },
+    {
+      "question": "Which of the following is not a pedagogical approach in teaching?",
+      "answers": [
+        "Reflective",
+        "Collective",
+        "Collaborative",
+        "Integrative"
+      ],
+      "correct": 1,
+      "points": 2
+    },
+    {
+      "question": "Which of the following statements is not true?",
+      "answers": [
+        "Techniques linked to self-control contribute to more effective learning if taught and applied correctly",
+        "Student creativity can be encouraged",
+        "Clear, explanatory and timely feedback to students is important for learning",
+        "Students tend to enjoy learning and have better outcomes when their motivation is more extrinsic than intrinsic"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "Fostering competencies requires integration of three interrelated dimensions of learning as described by UNESCO. Which of the following is not one of them?",
+      "answers": [
+        "Biological learning",
+        "Cognitive learning",
+        "Behavioral learning",
+        "Social and emotional learning"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "Sustainable development is ___",
+      "answers": [
+        "Unidimensional",
+        "Bidimensional",
+        "Multidimensional",
+        "None of the given"
+      ],
+      "correct": 2,
+      "points": 2
+    },
+    {
+      "question": "Individual differences are the unique ways each human being differs from another. It can be handled through using different techniques. Which of the following is not one of them?",
+      "answers": [
+        "Observation",
+        "Sociograms",
+        "Rating scales",
+        "Ignorance"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "___ is a learning tool, because the explicit navigation of the topic and association types might enable meaningful learning and it helps to reduce the cognitive loads caused by e-learning content and constant attention.",
+      "answers": [
+        "Topic map",
+        "Schema",
+        "Prototype",
+        "Instructional map"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "___ refers to a complex set of mental abilities underlying social stimulus perception, processing, interpretation, and response.",
+      "answers": [
+        "Social schema",
+        "Emotional cognition",
+        "Social cognition",
+        "Emotional schema"
+      ],
+      "correct": 2,
+      "points": 2
+    },
+    {
+      "question": "The following are the outcome targets of SDG 4, except ___",
+      "answers": [
+        "Relevant skills for decent work",
+        "Gender equality and inclusion",
+        "Privatization of institutes",
+        "Universal youth literacy"
+      ],
+      "correct": 2,
+      "points": 2
+    },
+    {
+      "question": "Which of the following is a way in which we think?",
+      "answers": [
+        "In verbal symbols",
+        "In mathematical symbols",
+        "In gestures and movements",
+        "All of the given"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "Integrative learning often involves three steps. Which of the following is not one of them?",
+      "answers": [
+        "Collaboration",
+        "Integrative enquiry",
+        "Application and transfer",
+        "Reflection"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "Which of the following statements is not true?",
+      "answers": [
+        "Experts even suggested that emotional intelligence/ EQ, is more important than IQ/academic intelligence",
+        "An individual with high EI is not only aware of what emotions they are feeling but can put words to their feelings",
+        "Studies show that EI does not impact aspects of one’s life like academic performance",
+        "Peter Salovey and John Mayer were the first to develop a psychological theory of emotional intelligence"
+      ],
+      "correct": 2,
+      "points": 2
+    },
+    {
+      "question": "Successful implementation of ESD requires a shift in focus from ___",
+      "answers": [
+        "Feeling to thinking",
+        "Learning to teaching",
+        "Teaching to feeling",
+        "Teaching to learning"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "The principles of contiguity (how close in time two events must be for a bond to be formed) and reinforcement (any means of increasing the likelihood that an event will be repeated) are central to explaining the learning process in the ___ orientation to learning.",
+      "answers": [
+        "Cognitive",
+        "Humanistic",
+        "Social and social-constructivist",
+        "Behaviorist"
+      ],
+      "correct": 3,
+      "points": 2
+    },
+    {
+      "question": "The ___ model of observational learning involves an actual individual demonstrating or acting out a behavior.",
+      "answers": [
+        "Live",
+        "Symbolic",
+        "Verbal instructional",
+        "Contextual"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    {
+      "question": "Daniel Goleman’s work in emotional intelligence (EI) has outlined ___ main areas of this intelligence.",
+      "answers": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correct": 2,
+      "points": 2
+    },
+    {
+      "question": "Which of the following is not one of the individual variable factors affecting learning?",
+      "answers": [
+        "Ergonomics",
+        "Interest",
+        "Endurance",
+        "Ego",
+        "Perception"
+      ],
+      "correct": 0,
+      "points": 2
+    },
+    
+        {
+            "question": "___ is known as the father of modern psychology.",
+            "answers": [
+                "Sigmund Freud",
+                "Wilhelm Wundt",
+                "John Watson",
+                "Lev Vygotsky"
+            ],
+            "correct": 1,
+            "points": 2
+        },
+        {
+            "question": "Cognitivists objected to behaviorists because they felt that behaviorists ignored the important role of ___.",
+            "answers": [
+                "genetics",
+                "emotions",
+                "thinking",
+                "stimulus reaction"
+            ],
+            "correct": 2,
+            "points": 2
+        },
+        {
+            "question": "___ is viewed as the mainstream for all research on learning designs.",
+            "answers": [
+                "Psychoanalysis",
+                "Positive psychology",
+                "Cognitivism",
+                "Evolutionary psychology"
+            ],
+            "correct": 2,
+            "points": 2
+        },
+        {
+            "question": "___ is a perspective in psychology focusing on the belief that human consciousness cannot be broken down into its elements and is based on the concept of a ‘whole’.",
+            "answers": [
+                "Cognitivism",
+                "Behaviorism",
+                "Gestalt psychology",
+                "Positive psychology"
+            ],
+            "correct": 2,
+            "points": 2
+        },
+        {
+            "question": "Theory of multiple intelligences is given by ___.",
+            "answers": [
+                "Howard Gardner",
+                "Edward C. Tolman",
+                "German Gestalt",
+                "Robert J. Sternberg"
+            ],
+            "correct": 0,
+            "points": 2
+        },
+        {
+            "question": "The general intelligence factor, also known as g, is what intelligence tests typically measure and refers only to ___ intelligence.",
+            "answers": [
+                "academic",
+                "practical",
+                "linguistic",
+                "kinesthetic"
+            ],
+            "correct": 0,
+            "points": 2
+        },
+        {
+            "question": "Cognitive evaluation for planning, attention, simultaneous, and successive processing of individuals can be done through CAS based on PASS theory. CAS here stands for ___.",
+            "answers": [
+                "Cognitive Achievement System",
+                "Cognitive Ability System",
+                "Cognitive Appraisal System",
+                "Cognitive Assessment System"
+            ],
+            "correct": 3,
+            "points": 2
+        },
+        {
+            "question": "BBL is a new science that shapes the learning process and is an approach that is based on the structure and function of the human brain. BBL stands for ___.",
+            "answers": [
+                "Biological based learning",
+                "Brain based learning",
+                "Biological battery learning",
+                "Brain biology learning"
+            ],
+            "correct": 1,
+            "points": 2
+        },
+        {
+            "question": "Gagne’s Conditions of Learning is also known as ___ Events of Instruction.",
+            "answers": [
+                "nine",
+                "five",
+                "ten",
+                "seven"
+            ],
+            "correct": 0,
+            "points": 2
+        },
+        {
+            "question": "Which of the following is not a type of constructivism?",
+            "answers": [
+                "biological",
+                "cognitive",
+                "social",
+                "radical"
+            ],
+            "correct": 0,
+            "points": 2
+        },
+        
+            {
+                "question": "Which of the following is true regarding learning in psychology?",
+                "answers": [
+                    "The psychology of learning focuses on how people learn and how they interact with the environments in which they have not learnt",
+                    "Learning does not involve any changes in the organism",
+                    "Learning is a relatively temporary change in behavior",
+                    "none of the given"
+                ],
+                "correct": 3,
+                "points": 2
+            },
+            {
+                "question": "In order to say that learning has occurred, a/an ___ must occur during the lifetime of the organism.",
+                "answers": [
+                    "hidden change in behavior",
+                    "small change in personality",
+                    "visible change in emotions",
+                    "observable change in behavior"
+                ],
+                "correct": 3,
+                "points": 2
+            },
+            {
+                "question": "Learning changes the ___ through the process of continuous interactions between the learner and the external environment.",
+                "answers": [
+                    "physical structure of the brain",
+                    "chemical structure of neurons",
+                    "physical structure of the heart",
+                    "chemical structure of the spinal cord"
+                ],
+                "correct": 0,
+                "points": 2
+            },
+            {
+                "question": "Watson, one of the first psychologists to study learning and behavior is known for the ___.",
+                "answers": [
+                    "Little Albert experiment",
+                    "Little John experiment",
+                    "Little Robert experiment",
+                    "Little Johnny experiment"
+                ],
+                "correct": 0,
+                "points": 2
+            },
+            {
+                "question": "Which of the following is not explored and described by the psychology of learning?",
+                "answers": [
+                    "principles of motivation",
+                    "principles of forgetting",
+                    "principles of genetic disorders",
+                    "principles of memory",
+                    "principles of retention"
+                ],
+                "correct": 2,
+                "points": 2
+            },
+            {
+                "question": "The state of ___ may be valuable at the start of a learning experience.",
+                "answers": [
+                    "conscious incompetence",
+                    "unconscious incompetence",
+                    "conscious over-competence",
+                    "unconscious over-competence"
+                ],
+                "correct": 0,
+                "points": 2
+            },
+            {
+                "question": "___ is the decrease in the response that an organism gives to a stimulus to which it is exposed in numerous trials or occasions.",
+                "answers": [
+                    "Habituation",
+                    "Sensitization",
+                    "Forgetting",
+                    "Meaningful learning"
+                ],
+                "correct": 0,
+                "points": 2
+            },
+            {
+                "question": "Cooperative learning is shaped by three crucial elements. Which of the following is one of them?",
+                "answers": [
+                    "formation of heterogeneous groups",
+                    "positive interdependence",
+                    "individual responsibility",
+                    "all of the given"
+                ],
+                "correct": 3,
+                "points": 2
+            },
+            {
+                "question": "Which of the following psychologists is an important contributor to the concept of observational learning?",
+                "answers": [
+                    "Watson",
+                    "Dewey",
+                    "Bruner",
+                    "Bandura"
+                ],
+                "correct": 3,
+                "points": 2
+            },
+            {
+                "question": "Which of the following is not considered a pioneer of the behaviorism school of thought in psychology?",
+                "answers": [
+                    "Watson",
+                    "Skinner",
+                    "Freud",
+                    "Pavlov"
+                ],
+                "correct": 2,
+                "points": 2
+            }
+                
+        
+  ]
