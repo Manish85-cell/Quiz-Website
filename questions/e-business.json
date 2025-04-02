@@ -108,5 +108,115 @@
         ],
         "correct": 2,
         "points": 1
+    },
+    {
+        "question": "Reengineering a business process leads to",
+        "answers": [
+            "Elimination of repetitive, paper-intensive, bureaucratic tasks",
+            "Reduction of costs significantly",
+            "Improvement in product/service quality",
+            "All of the above"
+        ],
+        "correct": 3,
+        "points": 1
+    },
+    {
+        "question": "The decision characteristics of Operational management, Middle management, and Senior Management are respectively",
+        "answers": [
+            "Structured, unstructured and semi-structured",
+            "Structured, semi-structured and unstructured",
+            "Unstructured, semi-structured and Structured",
+            "Unstructured, Structured and Semi-structured"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "An analysis is carried out by repeatedly changing the number of advertisements a company publishes on a web-page and observing the effect on other variables like customers gained, effectiveness, profit margins, etc. What kind of analysis is this?",
+        "answers": [
+            "What-if analysis",
+            "Sensitivity analysis",
+            "Goal-seeking",
+            "Optimization analysis"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Making long-range strategic decisions about products and services is the task of",
+        "answers": [
+            "Middle management",
+            "Knowledge workers",
+            "Senior management",
+            "Operational management"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "What is the role of an information system?",
+        "answers": [
+            "Automates businesses",
+            "Connects business processes with stakeholders",
+            "Decision support and control",
+            "All of the above"
+        ],
+        "correct": 3,
+        "points": 1
+    },
+    {
+        "question": "If we broadly categorize the information system, which one of the following has analytical capability?",
+        "answers": [
+            "Management information system",
+            "Transaction processing system",
+            "Decision support system",
+            "Executive support system"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "Which of the following is an example of the inter-organization business process?",
+        "answers": [
+            "Manufacturing and Production",
+            "Procurement Process",
+            "Sales and Marketing",
+            "Finance and Accounting"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Aman is a product design engineer working at Apple. Which management level does Aman represent?",
+        "answers": [
+            "Senior Management",
+            "Middle Management",
+            "Operational Management",
+            "None of the above"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "The data input for Management Information System (MIS) is obtained from",
+        "answers": [
+            "Transaction Processing System (TPS)",
+            "Decision Support System (DSS)",
+            "Executive Support System (ESS)",
+            "None of the above"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "The role of the information system in the DMAIC model is to:\n            i). Provide the data,   ii). Support business processes     iii). Provide a decision support system?",
+        "answers": [
+            "i) & ii)",
+            "i) & iii)",
+            "i), ii), & iii)",
+            "None of the above"
+        ],
+        "correct": 2,
+        "points": 1
     }
 ]
