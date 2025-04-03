@@ -218,5 +218,115 @@
         ],
         "correct": 2,
         "points": 1
+    },
+    {
+        "question": "Reengineering the purchasing department activities for ICT implementation includes:\ni. Grouping and automating structured decision-making activities\nii. Grouping and automating transaction processing activities",
+        "answers": [
+            "Only i",
+            "Only ii",
+            "Both i and ii",
+            "None of the above"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "The process of collecting, cleansing, classifying and analyzing expenditure data with the purpose of reducing procurement costs, improving efficiency and monitoring compliance is called",
+        "answers": [
+            "Expenditure analysis",
+            "Spend Analysis",
+            "Cost analysis",
+            "None of the above"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Which of the following options doesn't hold true for the Enterprise Information Portal?",
+        "answers": [
+            "Act as company's interface to the public rather than a personalized digital interface for specific users.",
+            "Access to company data for selected customers, suppliers or business partners.",
+            "Direct access to industry and business news.",
+            "None of the above."
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "Which among the following can be a part of a company's e-Procurement solution?\ni. Industry-specific purchase consortium\nii. An internal E-Bidding Solution\niii. E-Negotiation Solution\niv. Online Stock Information System for VMI Suppliers",
+        "answers": [
+            "i & ii",
+            "i & iii",
+            "i, ii, & iv",
+            "i, ii, iii, & iv"
+        ],
+        "correct": 3,
+        "points": 1
+    },
+    {
+        "question": "Which E-Procurement Model gathers the purchasing power of many buyers to negotiate more aggressive discounts?",
+        "answers": [
+            "E-Procurement software",
+            "Internet Market Exchanges",
+            "Internet B2B Auctions",
+            "Internet Purchasing Consortia"
+        ],
+        "correct": 3,
+        "points": 1
+    },
+    {
+        "question": "In a price negotiation context, when the suppliers are allowed to reformulate their bids based on information about winning bids in each round. Which of the following represents this process?\ni. Online Tendering\nii. Reverse Auctions",
+        "answers": [
+            "i",
+            "ii",
+            "i & ii",
+            "None of the above"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "In case of Solicitation, which of the RFx seeks an opportunity for the potential suppliers to competitively set pricing for the final chosen solution?",
+        "answers": [
+            "Request for Information",
+            "Request for Quotation",
+            "Request for Proposal",
+            "All of the above"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Which one of these is NOT an external business risk?",
+        "answers": [
+            "Lack of cooperation of the suppliers",
+            "Integration with the existing information infrastructure",
+            "Creating e-catalogues in the required formats",
+            "Buyer-supplier relationship"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Selling a related product/service to a customer of a particular product/service is called",
+        "answers": [
+            "Cross-selling",
+            "Up-selling",
+            "Clearance selling",
+            "Force selling"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "Which among the following are the most frequent barriers to E-procurement Technologies utilization especially for E-Auction?\ni. Organizational discomfort with auctions, as opposed to honoring commitment to supplier partnering and consolidation.\nii. Downward price pressure on vendors resulting in diminished customer service or quality.\niii. Inability to identify potential items for auction.",
+        "answers": [
+            "i & ii",
+            "ii & iii",
+            "i & iii",
+            "i, ii & iii"
+        ],
+        "correct": 3,
+        "points": 1
     }
 ]
