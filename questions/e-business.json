@@ -328,5 +328,115 @@
         ],
         "correct": 3,
         "points": 1
+    },
+    {
+        "question": "Ms. Chandni visits plenty of clothing websites to get acquainted with different brands and the options available without making any purchases. What kind of an online user is she?",
+        "answers": [
+            "Online prosumer",
+            "Online surfer",
+            "Online key customer",
+            "Online consumer"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "An online company is selling standard products along with the customized products based on individual preferences if the customer is willing to share her personal requirements. At what stage an online customer might be interested in this?",
+        "answers": [
+            "Online key customer",
+            "Online consumer",
+            "Online prosumer",
+            "None of the above"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "Suppose you order more than one item from an online store, and all the orders are being delivered by the same carrier. Usually, on the way, the carrier tends to combine all the orders into a single package whenever possible. This is called",
+        "answers": [
+            "Last mile delivery",
+            "In-transit merge",
+            "Direct shipping",
+            "Customer pickup"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Which of the following characteristics of e-Marketing provides the companies with ample opportunity to contact their prospective customers anytime, anywhere, and turn them into real customers?",
+        "answers": [
+            "Associative information acquisition",
+            "One-to-One marketing",
+            "Ubiquity",
+            "Disintermediation"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "What is the fundamental difference between the 'push and pull' principles during online promotions?",
+        "answers": [
+            "Push is initiated by provider and pull by the user",
+            "Push is initiated by the user and pull by the provider",
+            "Push and pull are both initiated by the user",
+            "Push and pull are both initiated by the provider"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "Fill the blank with a suitable option:\n_____________ is associated with the selection of distribution logistics and usually starts with Dealer and ends with Distributor in a Supply chain.",
+        "answers": [
+            "Customer Buying Cycle",
+            "Replenishment Cycle",
+            "Manufacturing Cycle",
+            "Procurement Cycle"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "In which strategic part of the Supply chain integration do both the Planning Collaboration as well as Inventory Collaboration go hand in hand?",
+        "answers": [
+            "Traditional Supply Chain",
+            "Collaborative Planning and Forecasting",
+            "Synchronized Supply Chain",
+            "Vendor Managed Inventory"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "You ordered some grocery items through a certain online retailer. The retailer packed and delivered it to you directly. Which of the design options for the distribution network is illustrated here?",
+        "answers": [
+            "Manufacturer storage with direct shipping",
+            "Manufacturer storage with direct shipping and in-transit merge",
+            "Distributor storage with package carrier delivery",
+            "Distributor storage with last mile delivery"
+        ],
+        "correct": 3,
+        "points": 1
+    },
+    {
+        "question": "Which of the following options doesn't hold true for the Enterprise Information Portal?",
+        "answers": [
+            "Act as company's interface to the public rather than a personalized digital interface for specific users.",
+            "Access to company data for selected customers, suppliers or business partners.",
+            "Direct access to industry and business news.",
+            "None of the above."
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "Selling a related product/service to a customer of a particular product/service is called",
+        "answers": [
+            "Cross-selling",
+            "Up-selling",
+            "Clearance selling",
+            "Force selling"
+        ],
+        "correct": 0,
+        "points": 1
     }
 ]
