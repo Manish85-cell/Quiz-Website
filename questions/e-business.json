@@ -438,5 +438,115 @@
         ],
         "correct": 0,
         "points": 1
+    },
+    {
+        "question": "ICANN stands for... which is responsible for domain name system management.",
+        "answers": [
+            "International Company for Assigned Numbering",
+            "Internet Corporation for Assigned Names and Numbers",
+            "International Corporation for Assigned Names and Numbers",
+            "Internet Corporation for Assigned Numbering"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Transceiver and repeaters work in.",
+        "answers": [
+            "Transportation layer",
+            "Network layer",
+            "Link layer",
+            "Physical layer"
+        ],
+        "correct": 3,
+        "points": 1
+    },
+    {
+        "question": "The time required to complete a request is known as latency, and the rate at which HTTP requests are served is known as...",
+        "answers": [
+            "Throughput, Latency",
+            "Latency, Meantime",
+            "Latency, Throughput",
+            "Throughput, Meantime"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "Which layer provides an interface for the end user operating a device connected to a network in ISO-OSI model?",
+        "answers": [
+            "Application layer",
+            "Session layer",
+            "Transportation layer",
+            "Data-link layer"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "Which of the following device is used to connect two systems, especially if the systems use different protocols?",
+        "answers": [
+            "Bridge",
+            "Gateway",
+            "Repeater",
+            "None of the above"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "In which of the following network storage device data can be transmitted for a longer distance?",
+        "answers": [
+            "Direct Attached Storage (DAS)",
+            "Network Access Storage (NAS)",
+            "Storage area Networks (SAN)",
+            "All of the above"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Which layer is responsible for error detection and flow control on physical link in ISO-OSI model?",
+        "answers": [
+            "Application layer",
+            "Session layer",
+            "Transportation layer",
+            "Data-link layer"
+        ],
+        "correct": 3,
+        "points": 1
+    },
+    {
+        "question": "Transmission control protocol (TCP) is",
+        "answers": [
+            "Connectionless",
+            "Connection oriented",
+            "Based on no-handshaking",
+            "Based on no-acknowledgment"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Semiconductor storage is __________ in nature.",
+        "answers": [
+            "Volatile",
+            "Non-Volatile",
+            "Both a and b",
+            "None of the above"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "Which of the following is true in the context of HTTP protocol?",
+        "answers": [
+            "Request is in ASCII format and Response in MIME",
+            "Request is in MIME format and Response in ASCII",
+            "Both request and response are in ASCII format",
+            "Both request and response are in MIME format"
+        ],
+        "correct": 0,
+        "points": 1
     }
 ]
