@@ -548,5 +548,115 @@
         ],
         "correct": 0,
         "points": 1
+    },
+    {
+        "question": "Protecting the content of messages or data transmitted over the Internet from unauthorized people is known as",
+        "answers": [
+            "Nonrepudiation",
+            "Integrity",
+            "Authentication",
+            "Confidentiality"
+        ],
+        "correct": 3,
+        "points": 1
+    },
+    {
+        "question": "Hash function is used for:",
+        "answers": [
+            "Encryption and decryption",
+            "Decryption and authentication",
+            "Data integrity and decryption",
+            "Authentication and data integrity"
+        ],
+        "correct": 3,
+        "points": 1
+    },
+    {
+        "question": "If the following information is given about a web server then what will be its throughput?\n- Average size of a file requested by the client = 16,384 bytes\n- Average CPU time for accessing a file at the server when secure connection is not required = 0.002 sec\n- Average time for a disk access = 0.02 sec\n- Average Network Delay = 0.001737 sec",
+        "answers": [
+            "25 requests per second",
+            "50 requests per second",
+            "75 requests per second",
+            "100 requests per second"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Which of the following is not an activity under TLS handshake procedure?",
+        "answers": [
+            "Negotiation of cryptographic and compression algorithms",
+            "Exchange of secrets through public key operations",
+            "Secret key transfer using symmetric key cryptography",
+            "Generation of secrete key"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "The difference between Sniffing and IP Spoofing is",
+        "answers": [
+            "In the latter the attacker simply reads the message from data link frames and in the former case he/she modifies the destination IP address",
+            "In both the cases the attacker simply reads the message from data link frames",
+            "In the former the attacker simply reads the message from data link frames and in the latter case he/she modifies the destination IP address",
+            "In both the cases the attacker modifies the destination IP address in the data link frames"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "The encrypted text in Cryptography is called.",
+        "answers": [
+            "Plaintext",
+            "Ciphertext",
+            "Both a and b",
+            "Neither (a) nor (b)"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Which of the following security issues cannot be resolved using digital signature?",
+        "answers": [
+            "Confidentiality",
+            "Integrity",
+            "Non-repudiation",
+            "Authentication"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "Which of the following protocol is responsible for making a persistent connection between hosts during data transmission?",
+        "answers": [
+            "Transmission Control Protocol (TCP)",
+            "User Datagram Protocol (UDP)",
+            "Broader Gateway Protocol (BGP)",
+            "None of above"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "Which of the following is independent malicious program that need not have any host program?",
+        "answers": [
+            "Virus",
+            "Worm",
+            "Trap doors",
+            "Trojan horse"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Which protocols can be used for the session key exchange and bulk data transfer in TLS protocol?",
+        "answers": [
+            "DES followed by RSA",
+            "DES followed by DES",
+            "RSA followed by DES",
+            "RSA followed by RSA"
+        ],
+        "correct": 2,
+        "points": 1
     }
 ]
