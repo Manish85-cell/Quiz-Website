@@ -658,5 +658,115 @@
         ],
         "correct": 2,
         "points": 1
+    },
+    {
+        "question": "Which of the following is true for identifiable electronic money?",
+        "answers": [
+            "Serial number is provided by the bank",
+            "Serial number is created by the customer",
+            "Blinded",
+            "All of the above"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "EDI for Administration, Commerce, and Trade (EDIFACT) standard is used in",
+        "answers": [
+            "Canada",
+            "Europe",
+            "US",
+            "Australia"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "In which cloud service model, a vendor provides users access to computing resources such as servers, storage, and networking?",
+        "answers": [
+            "Platform as a Service",
+            "Infrastructure as a Service",
+            "Software as a Service",
+            "Data as a Service"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Which of the following is the right sequence for data interchange using EDI?",
+        "answers": [
+            "Preparation of Electronic Documents, Inbound Translation, Outbound Translation, Communication, Processing Electronic Documents",
+            "Preparation of Electronic Documents, Processing Electronic Documents, Outbound Translation, Inbound Translation, Communication",
+            "Outbound Translation, Communication, Inbound Translation, Preparation of Electronic Documents, Processing Electronic Documents",
+            "Preparation of Electronic Documents, Outbound Translation, Communication, Inbound Translation, Processing Electronic Documents"
+        ],
+        "correct": 3,
+        "points": 1
+    },
+    {
+        "question": "Which of the following is TRUE regarding REpresentational State Transfer (REST) Web Services?",
+        "answers": [
+            "Runs over HTTP",
+            "An architectural style protocol",
+            "XML based message protocol",
+            "Uses WSDL for communication"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "In B2B Interoperability, which technical layer is concerned with resolving semantic and structural heterogeneity issues?",
+        "answers": [
+            "Communication level",
+            "Content level",
+            "Process level",
+            "None of the above"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Which of the following can be considered as a private cloud?",
+        "answers": [
+            "A standard cloud service offered via the Internet",
+            "A cloud architecture maintained within an enterprise data center",
+            "A cloud service inaccessible to anyone but the cultural elite",
+            "None of the above"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Which type of credit card based payment system does not use bank as an intermediary?",
+        "answers": [
+            "Closed loop systems",
+            "Open loop systems",
+            "Both (a) and (b)",
+            "Neither (a) nor (b)"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "Amazon Web Services is an example of",
+        "answers": [
+            "Platform as a Service",
+            "Infrastructure as a Service",
+            "Software as a Service",
+            "Data as a Service"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Which of the following assessment criteria is required for any electronic payment system?",
+        "answers": [
+            "Authenticity, Non-repudiation, Mobility",
+            "Authenticity, Confidentiality, Integrity",
+            "Authenticity, Anonymity, Mobility",
+            "None of the above"
+        ],
+        "correct": 1,
+        "points": 1
     }
 ]

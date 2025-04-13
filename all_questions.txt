@@ -1,0 +1,128 @@
+Question 1:
+Which of the following is true for identifiable electronic money?
+
+a.Serial number is provided by the bank
+b.Serial number is created by the customer
+c.Blinded
+d.Alllof the above
+
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+a.
+
+
+Question 2:
+EDI for Administration, Commerce, and Trade (EDIFACT) standard is used in
+
+Canada
+Europe
+us
+Australia
+
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+b.
+
+
+Question 3:
+In which cloud service model, a vendor provides users access to computing resources such as
+servers, storage, and networking?
+
+Platform as a Service
+Infrastructure as a Service
+Software as a Service
+Data as a Service
+
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+b.
+
+
+Question 4:
+Which of the following is the right sequence for data interchange using EDI?
+
+a. Preparation of Electronic Documents, Inbound Translation, Outbound
+Translation, Communication, Processing Electronic Documents
+
+b. Preparation of Electronic Documents, Processing Electronic Documents,
+Ontbound Translation, Inbound Translation, Communication
+
+c. Outbound Translation, Communication, Inbound Translation, Preparation of
+Electronic Documents, Processing Electronic Documents
+
+4. Preparation of Electronic Documents, Outbound Translation, Communication,
+Inbound Translation, Processing Electronic Documents
+
+Accepted Answers:
+d.
+
+Question 5:
+Which of the following is TRUE regarding REpresentational State Transfer (REST) Web
+Services?
+
+Runs over HTTP
+An architectural style protocol
+XML based message protocol
+Uses WSDL for communication
+
+Answer : b
+
+
+Question 6:
+In B2B Interoperability, which technical layer is concerned with resolving semantic and
+structural heterogeneity issues?
+
+Communication level
+Content level
+Process level
+None of the above
+
+b Content Level
+
+Question 7:
+Which of the following can be considered as a private cloud?
+
+aoe
+
+A standard cloud service offered via the Internet
+A cloud architecture maintained within an enterprise data center
+A cloud service inaccessible to anyone but the cultural elite
+‘None of the above
+
+answer : b , A cloud architecture maintained within an enterprise data center
+
+Question 8:
+Which type of credit card based payment system does not use bank as an intermediary?
+
+Closed loop systems
+Open loop systems
+Both (a) and (b)
+Neither (a) nor (b)
+
+answer is a , Closed loop system
+
+
+Question 9:
+Amazon Web Services is an example of
+
+Platform as a Service
+Infrastructure as a Service
+Software as a Service
+Data as a Service
+
+answer : b Infrastructure as a service
+
+Question 10:
+Which of the following assessment criteria is required for any electronic payment system?
+
+Authenticity, Non-repudiation, Mobility
+Authenticity, Confidentiality, Integrity
+Authenticity, Anonymity, Mobility
+None of the above
+
+answer : b Authenticity , Confidentiality, Integrity
+
+
