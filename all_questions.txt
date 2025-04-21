@@ -1,128 +1,98 @@
 Question 1:
-Which of the following is true for identifiable electronic money?
+In the log file the field” Agent “denotes -
+a. The person who is accessing the website.
+b.he page to which the data is send
+c. The URL of the Server
+d. Name and version of the browser
 
-a.Serial number is provided by the bank
-b.Serial number is created by the customer
-c.Blinded
-d.Alllof the above
-
-Yes, the answer is correct.
-Score: 1
-Accepted Answers:
-a.
-
+Answer : d. Name and url of the browser
 
 Question 2:
-EDI for Administration, Commerce, and Trade (EDIFACT) standard is used in
+‘Type of the browser cannot be used for user identification because -
 
-Canada
-Europe
-us
-Australia
 
-Yes, the answer is correct.
-Score: 1
-Accepted Answers:
-b.
+Many people can have same browsers
+Browsers are unique for each user
+cookies are not working on all browsers
+None of these
 
+Answer: a Many people can have same browsers
 
 Question 3:
-In which cloud service model, a vendor provides users access to computing resources such as
-servers, storage, and networking?
+In the access log file, the field” referrer “denotes -
+a. The person who is accessing the website.
+. The page to which the data is send
+c. The URL from which the request has been generated
+d. Version of the browser
 
-Platform as a Service
-Infrastructure as a Service
-Software as a Service
-Data as a Service
-
-Yes, the answer is correct.
-Score: 1
-Accepted Answers:
-b.
-
+Answer c The URL from which the request has been generated
 
 Question 4:
-Which of the following is the right sequence for data interchange using EDI?
-
-a. Preparation of Electronic Documents, Inbound Translation, Outbound
-Translation, Communication, Processing Electronic Documents
-
-b. Preparation of Electronic Documents, Processing Electronic Documents,
-Ontbound Translation, Inbound Translation, Communication
-
-c. Outbound Translation, Communication, Inbound Translation, Preparation of
-Electronic Documents, Processing Electronic Documents
-
-4. Preparation of Electronic Documents, Outbound Translation, Communication,
-Inbound Translation, Processing Electronic Documents
-
-Accepted Answers:
-d.
+Question 4 to 6 is connected. The description of the problem is given below -
+https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/c4.PNG
 
 Question 5:
-Which of the following is TRUE regarding REpresentational State Transfer (REST) Web
-Services?
+Which entry in the log entry will you suspect as a potential hacker?
+a. Slno#5
+b. Sino #6
+c. Slno#7
+d. Slno #8
 
-Runs over HTTP
-An architectural style protocol
-XML based message protocol
-Uses WSDL for communication
-
-Answer : b
-
+Answer c SI no#7
 
 Question 6:
-In B2B Interoperability, which technical layer is concerned with resolving semantic and
-structural heterogeneity issues?
+Which pair of entries in the log represents probably the same user considering time oriented
+heuristics?
 
-Communication level
-Content level
-Process level
-None of the above
+{Sl no #1 and SI no#3}
 
-b Content Level
+{Sl no #4 and Si no#6}
+
+{Sl no#8 and SI no#9}
+
+All the above
+
+Answer: d All of above
+
 
 Question 7:
-Which of the following can be considered as a private cloud?
+In the log file the Field 5 resembles which entry in a standard log file?
+a. Method
 
-aoe
+b. Agent
 
-A standard cloud service offered via the Internet
-A cloud architecture maintained within an enterprise data center
-A cloud service inaccessible to anyone but the cultural elite
-‘None of the above
+c. Referrer
 
-answer : b , A cloud architecture maintained within an enterprise data center
+d. IP
+
+Answer: Method
+
 
 Question 8:
-Which type of credit card based payment system does not use bank as an intermediary?
+The IP address visible in a website access log is that of the
+a. Server
+b. Last ISP
+c. client
+d. DNS
 
-Closed loop systems
-Open loop systems
-Both (a) and (b)
-Neither (a) nor (b)
-
-answer is a , Closed loop system
-
+Answer: c client
 
 Question 9:
-Amazon Web Services is an example of
+‘What is path completion in the context of access log mining?
+a. Finding edges of disconnected graph
+. Inferring missing user references due to caching
+c. Network analysis techniques
+d. Job sequencing problems
 
-Platform as a Service
-Infrastructure as a Service
-Software as a Service
-Data as a Service
-
-answer : b Infrastructure as a service
+Answer: d Transition and Average Transition Time
 
 Question 10:
-Which of the following assessment criteria is required for any electronic payment system?
 
-Authenticity, Non-repudiation, Mobility
-Authenticity, Confidentiality, Integrity
-Authenticity, Anonymity, Mobility
-None of the above
+What are the sessionization strategies in access log mining?
+a. Delay and Response oriented.
+b. Time and Navigation oriented 
+c. View and browse oriented 
+d. GET and POST oriented
 
-answer : b Authenticity , Confidentiality, Integrity
-
+Annswer: b Time and Navigation oriented
 

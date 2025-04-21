@@ -768,5 +768,214 @@
         ],
         "correct": 1,
         "points": 1
+    },
+    {
+        "question": "Which types of RFID tags are suitable for supply chain applications?",
+        "answers": [
+            "Active Tags",
+            "Semi-Active Tags",
+            "Passive Tags",
+            "None of the above"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "In RFID system, EPC code is able to identify up to —",
+        "answers": [
+            "96",
+            "2^96",
+            "128",
+            "256"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Which component of GPS system consists of ground stations located around the world to make sure that the satellites are working properly?",
+        "answers": [
+            "The space segment",
+            "The user segment",
+            "The control segment",
+            "None of the above"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "The device which converts physical phenomenon into electrical signal is known as",
+        "answers": [
+            "Actuator",
+            "Diode",
+            "Sensor",
+            "None of the above"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "In context of information system, AIDC stands for",
+        "answers": [
+            "Application identification and data capture",
+            "Automated identification and data capture",
+            "Automatic identifier and direct capture",
+            "Automated identifier and direct capture"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Which type of analytics recommends decisions using Data visualization, Statistical description etc.?",
+        "answers": [
+            "Decisive",
+            "Descriptive",
+            "Prescriptive",
+            "Predictive"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "The huge numbers of devices connected to the Internet of things have to communicate automatically, not via humans. This type of communication is termed as:",
+        "answers": [
+            "Machine to Machine (M2M)",
+            "Bot to Bot (B2B)",
+            "Skynet",
+            "Inter-cloud"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "The vehicle routing problem in which some customers may actually be serviced by more than one vehicle is known as",
+        "answers": [
+            "Capacitated Vehicle Routing Problem (CVRP)",
+            "Periodic Vehicle Routing Problem (VRP)",
+            "Stochastic Vehicle Routing Problem (SVRP)",
+            "Split Delivery Vehicle Routing Problem (SDVRP)"
+        ],
+        "correct": 3,
+        "points": 1
+    },
+    {
+        "question": "An active tag generally has",
+        "answers": [
+            "It's own power source",
+            "Does not have its own power source",
+            "Is more active than a passive tag",
+            "Actively seeks other tags"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "To determine the location of a GPS device on earth in three dimensions (3D), minimum number of satellites are needed is",
+        "answers": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "In the log file the field 'Agent' denotes -",
+        "answers": [
+            "The person who is accessing the website.",
+            "The page to which the data is sent",
+            "The URL of the Server",
+            "Name and version of the browser"
+        ],
+        "correct": 3,
+        "points": 1
+    },
+    {
+        "question": "‘Type of the browser cannot be used for user identification because -",
+        "answers": [
+            "Many people can have same browsers",
+            "Browsers are unique for each user",
+            "Cookies are not working on all browsers",
+            "None of these"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "In the access log file, the field 'referrer' denotes -",
+        "answers": [
+            "The person who is accessing the website.",
+            "The page to which the data is sent",
+            "The URL from which the request has been generated",
+            "Version of the browser"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "Which entry in the log entry will you suspect as a potential hacker? Image Link - https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/c4.PNG",
+        "answers": [
+            "Slno#5",
+            "Slno#6",
+            "Slno#7",
+            "Slno#8"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "Which pair of entries in the log represents probably the same user considering time oriented heuristics? Image Link - https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/c4.PNG",
+        "answers": [
+            "Sl no #1 and Sl no#3",
+            "Sl no #4 and Sl no#6",
+            "Sl no#8 and Sl no#9",
+            "All the above"
+        ],
+        "correct": 3,
+        "points": 1
+    },
+    {
+        "question": "In the log file the Field 5 resembles which entry in a standard log file? Image Link - https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/c4.PNG",
+        "answers": [
+            "Method",
+            "Agent",
+            "Referrer",
+            "IP"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "The IP address visible in a website access log is that of the -",
+        "answers": [
+            "Server",
+            "Last ISP",
+            "Client",
+            "DNS"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "What is path completion in the context of access log mining?",
+        "answers": [
+            "Finding edges of disconnected graph",
+            "Inferring missing user references due to caching",
+            "Network analysis techniques",
+            "Job sequencing problems"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "What are the sessionization strategies in access log mining?",
+        "answers": [
+            "Delay and Response oriented.",
+            "Time and Navigation oriented",
+            "View and browse oriented",
+            "GET and POST oriented"
+        ],
+        "correct": 1,
+        "points": 1
     }
 ]
