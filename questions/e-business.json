@@ -1197,5 +1197,115 @@
         ],
         "correct": 3,
         "points": 1
+    },
+    {
+        "question": "Governmental organizations are likely to prefer which of the following auction design?",
+        "answers": [
+            "Optimal",
+            "Efficient",
+            "Reliable",
+            "Resilient"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Which of the following explains winner's curse:",
+        "answers": [
+            "paying highest price",
+            "paying least price",
+            "paying more than the actual worth",
+            "not paying any money"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "The auction process followed by stock exchanges, is an example of",
+        "answers": [
+            "Double auction",
+            "Single auction",
+            "Forward auction",
+            "Backward auction"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "In online auction which of the following incident is called triangulation?",
+        "answers": [
+            "Buying product online using credit card and selling the items offline",
+            "Buying product online using stolen credit card and selling the items online",
+            "Selling the stolen products online with auction",
+            "Selling the stolen products online without auction"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Which is/are the cause/causes that encourage cheating in online auction?",
+        "answers": [
+            "Cheap pseudonyms",
+            "Greater information asymmetry",
+            "Lack of personal contact",
+            "All of the above"
+        ],
+        "correct": 3,
+        "points": 1
+    },
+    {
+        "question": "In the context of optimal auction mechanism, what is reserve price?",
+        "answers": [
+            "A minimum price, below which the seller does not sell an item",
+            "A minimum bid incurred by the buyer",
+            "A maximum price, above which the seller does not sell an item",
+            "A maximum bid incurred by the buyer"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "In second price auction, the item goes to the highest bidder but at second highest bidder's bid value. This is an example of",
+        "answers": [
+            "Optimal Auction",
+            "Efficient Auction",
+            "Double Auction",
+            "Combinatorial Auction"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Increasing the number of bidders in a reverse auction can",
+        "answers": [
+            "Increase the price",
+            "Decrease the price",
+            "Keep the price unchanged",
+            "Not affect the price"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Which of the following can be web based sales auctions to the end customer?",
+        "answers": [
+            "B2B and C2B type",
+            "C2C and B2B type",
+            "C2C and B2C type",
+            "None of them"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "Which auction mechanism is currently dominant in online auction?",
+        "answers": [
+            "Vickery auction",
+            "Dutch auction",
+            "English auction",
+            "Sealed-first price auction"
+        ],
+        "correct": 2,
+        "points": 1
     }
 ]

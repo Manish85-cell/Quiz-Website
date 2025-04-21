@@ -5,116 +5,93 @@ b. Efficient
 c. Reliable
 d. Resilient
 
+Answer: b Efficient
 
 Question 2:
 Which of the following explains winner's curse:
 
-a.
+a.paying highest price
+b.paying least price
+c.paying more than the actual worth
+d.not paying any money
 
-b.
-c.
-d.
-
-paying highest price
-paying least price
-
-paying more than the actual worth
-not paying any money
-
+Answer c Paying more than actual worth
 
 Question 3:
-The auction process followed by stock exchanges, 1s an example of
-Double auction
+The auction process followed by stock exchanges, is an example of
+a.Double auction
+b.Single auction
+c.Forward auction
+d.Backward auction
 
-Single auction
-
-Forward auction
-
-Backward auction
-
-aoe
-
+Answer: a Double auction
 
 Question 4:
 In online auction which of the following incident is called triangulation?
 
-a.
+a.Buying product online using credit card and selling the items offline
+b.Buying product online using stolen credit card and selling the items online
+c.Selling the stolen products online with auction
+d.Selling the stolen products product online without auction
 
-b.
-c.
-4.
-
-Buying product online using credit card and selling the items offline
-Buying product online using stolen credit card and selling the items online
-Selling the stolen products online with auction
-
-Selling the stolen products product online without auction
-
+Answer: b 
 
 Question 5:
 ‘Which is/are the cause/causes that encourage cheating in online auction?
 
-Cheap pseudonyms
-Greater information asymmetry
-Lack of personal contact
+a.Cheap pseudonyms
+b.Greater information asymmetry
+c.Lack of personal contact
+d.All of the above
 
-All of the above
-
-apse
+Answer: d All of the above 
 
 
 Question 6:
 In the context of optimal auction mechanism, what is reserve price?
-a. Aminimum price, below which the seller does not sell an item
+a. A minimum price, below which the seller does not sell an item
 b. A minimum bid incurred by the buyer
-c. Amaximum price, above which the seller does not sell an item
+c. A maximum price, above which the seller does not sell an item
 d. A maximum bid incurred by the buyer
 
+Answer a 
 
 Question 7:
 In second price auction, the item goes to the highest bidder but at second highest bidder's bid
 value. This is an example of
 
-Optimal Auction
-Efficient Auction
-Double Auction
-Combinatorial Auction
+a.Optimal Auction
+b.Efficient Auction
+c.Double Auction
+d.Combinatorial Auction
 
-apep
-
+Answer: b. Efficient Auction
 
 Question 8:
 Increasing the number of bidders in a reverse auction can
 
-eaepee
+a.Increase the price
+b.Decrease the price
+c.Keep the price unchanged
+d.Not affect the price
 
-Increase the price
-Decrease the price
-
-Keep the price unchanged
-Not affect the price
-
+answer: b
 
 Question 9:
 Which of the following can be web based sales auctions to the end customer?
 
-a.
+a.B2B and C2B type
+b.C2C and B2B type
+c.C2C and B2C type
+d.None of them
 
-b.
-c.
-4.
-
-B2B and C2B type
-C2C and B2B type
-C2C and B2C type
-‘None of them
-
+Answer c: C2C and B2C type
 
 Question 10:
 Which auction mechanism is currently dominant in online auction?
 a.Vickery auction
-, Dutch auction
-c. English auction
-d. Sealed-first price auction
+b.Dutch auction
+c.English auction
+d.Sealed-first price auction
 
-
+Answer: c , English auction 
