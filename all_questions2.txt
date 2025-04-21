@@ -1,10 +1,11 @@
 Question 1:
 Metrics used in association rule mining to judge the goodness of the rules are
 a. Support and Confidence
-». Rank and Eigen value
+b. Rank and Eigen value
 c. Precision and Recall
 d. F-Score
 
+Answer: a Support and Confidence
 
 Question 2:
 Apriori Principle says —
@@ -13,14 +14,16 @@ b. Ifaset pass a test it's superset may not
 c. Ifa set cannot pass a test it’s superset will not pass too
 d. Ifa set pass or fail a test doesn’t affect it’s superset
 
+Answer c Ifa set cannot pass a test it’s superset will not pass too
 
 Question 3:
 Discount in the Railway ticket for senior citizens is an example of —
 a. Second degree price dispersion
-. First Degree price dispersion
+b. First Degree price dispersion
 c. Third degree price dispersion
 d. None of the above
 
+Answer: c Third Degree price dispersion
 
 Question 4:
 A Reverse Auction has
@@ -29,6 +32,7 @@ b. One buyer & One seller
 c. One seller & Multiple buyers
 d. Multiple sellers& buyers
 
+Answer: a, One Buyer and Multiple seller
 
 Question 5:
 Which among these comes under descending bidding rule?
@@ -38,8 +42,7 @@ Sealed bidding
 Second price auction
 None of these
 
-eaogee
-
+Answer: a Dutch Auction
 
 Question 6:
 Which among the following is also called market basket analysis?
@@ -49,16 +52,17 @@ Collaborative filtering
 Popularity based ranking
 ‘None of these
 
-eopgse
+Answer a Assotiation rule mining
 
 
 Question 7:
 Which one of the following is a higher-order model for item-item based collaborative filtering?
 a. Linear regression
-’. Correlation analysis
+b. Correlation analysis
 c. Neighborhood formation
 4. Bayesian Belief Network
 
+Answer: d Bayesian Belief Network
 
 Question 8:
 Which is/are the data transformation method?
@@ -67,29 +71,24 @@ b. Expected Value based
 c. Statistics based
 d. Allof them
 
+Answer: d, All of the them
 
 Question 9:
 Why dimension reduction is necessary?
 a. To address reputation based recommendation
-». To find TF-IDF
+b. To find TF-IDF
 c. To address sparsity and scalability problem
 d. None of the above
 
+Answer: c, To address sparsity and scalability problem 
 
 Question 10:
 The two aspects of flexible pricing are —
 
-a.
 
-b.
-c.
-4.
+a.Price fluctuation and Uncertainty
+b.Price increase and decrease
+c.Price discount and benefit
+d.Price Dispersion and Differentiation
 
-Price fluctuation and Uncertainty
-Price increase and decrease
-
-Price discount and benefit
-
-Price Dispersion and Differentiation
-
-
+Answer: d Price Dispersion and Differentiation

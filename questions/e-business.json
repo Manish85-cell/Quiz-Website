@@ -1087,5 +1087,115 @@
         ],
         "correct": 3,
         "points": 1
+    },
+    {
+        "question": "Metrics used in association rule mining to judge the goodness of the rules are",
+        "answers": [
+            "Support and Confidence",
+            "Rank and Eigen value",
+            "Precision and Recall",
+            "F-Score"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "Apriori Principle says —",
+        "answers": [
+            "If a set cannot pass a test its superset can pass",
+            "If a set passes a test its superset may not",
+            "If a set cannot pass a test its superset will not pass too",
+            "If a set passes or fails a test it doesn’t affect its superset"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "Discount in the Railway ticket for senior citizens is an example of —",
+        "answers": [
+            "Second degree price dispersion",
+            "First Degree price dispersion",
+            "Third degree price dispersion",
+            "None of the above"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "A Reverse Auction has",
+        "answers": [
+            "One buyer & Multiple sellers",
+            "One buyer & One seller",
+            "One seller & Multiple buyers",
+            "Multiple sellers & buyers"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "Which among these comes under descending bidding rule?",
+        "answers": [
+            "Dutch auction",
+            "Sealed bidding",
+            "Second price auction",
+            "None of these"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "Which among the following is also called market basket analysis?",
+        "answers": [
+            "Association rule mining",
+            "Collaborative filtering",
+            "Popularity based ranking",
+            "None of these"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "Which one of the following is a higher-order model for item-item based collaborative filtering?",
+        "answers": [
+            "Linear regression",
+            "Correlation analysis",
+            "Neighborhood formation",
+            "Bayesian Belief Network"
+        ],
+        "correct": 3,
+        "points": 1
+    },
+    {
+        "question": "Which is/are the data transformation method?",
+        "answers": [
+            "Frequency Based",
+            "Expected Value based",
+            "Statistics based",
+            "All of them"
+        ],
+        "correct": 3,
+        "points": 1
+    },
+    {
+        "question": "Why is dimension reduction necessary?",
+        "answers": [
+            "To address reputation based recommendation",
+            "To find TF-IDF",
+            "To address sparsity and scalability problem",
+            "None of the above"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "The two aspects of flexible pricing are —",
+        "answers": [
+            "Price fluctuation and Uncertainty",
+            "Price increase and decrease",
+            "Price discount and benefit",
+            "Price Dispersion and Differentiation"
+        ],
+        "correct": 3,
+        "points": 1
     }
 ]
