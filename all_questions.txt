@@ -1,98 +1,120 @@
 Question 1:
-In the log file the field” Agent “denotes -
-a. The person who is accessing the website.
-b.he page to which the data is send
-c. The URL of the Server
-d. Name and version of the browser
+Ifa customer behavior model graph (CBMG) has a state from which a customer 1s not likely to
+return it is called:
 
-Answer : d. Name and url of the browser
+a. Stable state
+
+b. Trapping state
+
+c. Transient state
+
+d. None of the above.
+
+Answer b Trapping state
 
 Question 2:
-‘Type of the browser cannot be used for user identification because -
+Which of the following is not a function of future workload?
+a. The natural evolution of the existing workload
+b. Deployment of new application
+c. Changes in the homepage
+d. Changes in user behavior
 
-
-Many people can have same browsers
-Browsers are unique for each user
-cookies are not working on all browsers
-None of these
-
-Answer: a Many people can have same browsers
+Answer c Changes in the homepage
 
 Question 3:
-In the access log file, the field” referrer “denotes -
-a. The person who is accessing the website.
-. The page to which the data is send
-c. The URL from which the request has been generated
-d. Version of the browser
+The last mystery novel of a famous writer becomes a best seller all of a sudden. You are being
+suggested to purchase the book in an online shopping site even when you are not searching for
+any mystery books. Which kind of recommendation approach might the online shopping site be
+using?
 
-Answer c The URL from which the request has been generated
+a.Content based
+
+b.Popularity based
+
+c.Reputation based
+
+d.Social network based
+
+answer b : Popularity based
+
 
 Question 4:
-Question 4 to 6 is connected. The description of the problem is given below -
-https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/c4.PNG
+User based collaborative filtering considers —
+a. Co-occurrence of items brought together
+b. Degree of relevance between user and item
+c. Preferences of similar users
+d. Features of the item
+
+Answer: c Preference of similar users
 
 Question 5:
-Which entry in the log entry will you suspect as a potential hacker?
-a. Slno#5
-b. Sino #6
-c. Slno#7
-d. Slno #8
+Which information of the following is used by content based recommendation systems?
 
-Answer c SI no#7
+a.Features of items and individual user preferences
+b.User demography and Features of item only
+c.Features of item only
+d.Individual user preferences only
+
+answer: a Features of items and individual user preference
 
 Question 6:
-Which pair of entries in the log represents probably the same user considering time oriented
-heuristics?
+The following can be used for modeling performance of a web server
+a. Visual inspection of data
 
-{Sl no #1 and SI no#3}
+b.Forecasting models
 
-{Sl no #4 and Si no#6}
+c.workload characterization models
 
-{Sl no#8 and SI no#9}
+d.All the above
 
-All the above
-
-Answer: d All of above
+Answer: d All of the above
 
 
 Question 7:
-In the log file the Field 5 resembles which entry in a standard log file?
-a. Method
+Migration rate from the state Shopping Cart indicates
 
-b. Agent
 
-c. Referrer
 
-d. IP
+a.Fraction of the people who left the site without buying after keeping few items
+in the shopping cart.
 
-Answer: Method
+b.Fraction of the people used shopping cart and bought few items.
 
+c.Number of people who visited shopping cart after migrating from some other
+site.
+
+d.Number of the people who left the site without buying after keeping few items
+in the shopping cart.
+
+answer a 
 
 Question 8:
-The IP address visible in a website access log is that of the
-a. Server
-b. Last ISP
-c. client
-d. DNS
+Which of the following is not a parameter for performance modeling of a website?
+a. Waiting times
+b. Type of server
+c. Response time
+d. Facility utilization
 
-Answer: c client
+answer b, Type of Server
 
 Question 9:
-‘What is path completion in the context of access log mining?
-a. Finding edges of disconnected graph
-. Inferring missing user references due to caching
-c. Network analysis techniques
-d. Job sequencing problems
+Which kind of recommender system suggests the items based on the items, the user has purchased in the
+past?
 
-Answer: d Transition and Average Transition Time
+a.Popularity based
+b.Content based
+c.Association based
+d.Collaborative filtering
+
+Answer: c Association based
+
 
 Question 10:
+Which of the following can be used for user profiling in a content based recommender system?
+a. Logistic regression
+b. Forward propagation neural networks
+c. Decision Tree induction algorithm
+d. All of the above
+ Answer: 
 
-What are the sessionization strategies in access log mining?
-a. Delay and Response oriented.
-b. Time and Navigation oriented 
-c. View and browse oriented 
-d. GET and POST oriented
-
-Annswer: b Time and Navigation oriented
-
+Answer : d All of  the above

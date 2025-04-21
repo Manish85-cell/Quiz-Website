@@ -6,24 +6,24 @@ from io import BytesIO
 # Path to Tesseract executable
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-# List of updated image URLs extracted from the HTML
 image_urls = [
-    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a9q1.PNG",
-    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a9q2.PNG",
-    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a9q3.PNG",
-    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/c4.PNG",
-    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a9q4.PNG",
-    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a9q5.PNG",
-    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a9q6.PNG",
-    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a9q7.PNG",
-    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a9q8.PNG",
-    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a9q9.PNG",
-    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a9q10.PNG"
+    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a12q1.PNG",
+    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a12q2.PNG",
+    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a12q3.PNG",
+    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a12q4.PNG",
+    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a12q5.PNG",
+    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a12q6.PNG",
+    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a12q7.PNG",
+    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a12q8.PNG",
+    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a12q9.PNG",
+    "https://storage.googleapis.com/swayam-node1-production.appspot.com/assets/img/noc19_mg54/a12q10.PNG"
 ]
 
 
+
+
 # File to save all questions
-output_file = "all_questions.txt"
+output_file = "all_questions3.txt"
 
 # Open the file in write mode
 with open(output_file, "w", encoding="utf-8") as file:

@@ -1,0 +1,95 @@
+Question 1:
+Metrics used in association rule mining to judge the goodness of the rules are
+a. Support and Confidence
+». Rank and Eigen value
+c. Precision and Recall
+d. F-Score
+
+
+Question 2:
+Apriori Principle says —
+a. Ifa set cannot pass a test it’s superset can pass
+b. Ifaset pass a test it's superset may not
+c. Ifa set cannot pass a test it’s superset will not pass too
+d. Ifa set pass or fail a test doesn’t affect it’s superset
+
+
+Question 3:
+Discount in the Railway ticket for senior citizens is an example of —
+a. Second degree price dispersion
+. First Degree price dispersion
+c. Third degree price dispersion
+d. None of the above
+
+
+Question 4:
+A Reverse Auction has
+a. One buyer & Multiple sellers
+b. One buyer & One seller
+c. One seller & Multiple buyers
+d. Multiple sellers& buyers
+
+
+Question 5:
+Which among these comes under descending bidding rule?
+
+Dutch auction
+Sealed bidding
+Second price auction
+None of these
+
+eaogee
+
+
+Question 6:
+Which among the following is also called market basket analysis?
+
+Association rule mining
+Collaborative filtering
+Popularity based ranking
+‘None of these
+
+eopgse
+
+
+Question 7:
+Which one of the following is a higher-order model for item-item based collaborative filtering?
+a. Linear regression
+’. Correlation analysis
+c. Neighborhood formation
+4. Bayesian Belief Network
+
+
+Question 8:
+Which is/are the data transformation method?
+a. Frequency Based
+b. Expected Value based
+c. Statistics based
+d. Allof them
+
+
+Question 9:
+Why dimension reduction is necessary?
+a. To address reputation based recommendation
+». To find TF-IDF
+c. To address sparsity and scalability problem
+d. None of the above
+
+
+Question 10:
+The two aspects of flexible pricing are —
+
+a.
+
+b.
+c.
+4.
+
+Price fluctuation and Uncertainty
+Price increase and decrease
+
+Price discount and benefit
+
+Price Dispersion and Differentiation
+
+

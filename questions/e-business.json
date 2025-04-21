@@ -977,5 +977,115 @@
         ],
         "correct": 1,
         "points": 1
+    },
+    {
+        "question": "If a customer behavior model graph (CBMG) has a state from which a customer is not likely to return it is called:",
+        "answers": [
+            "Stable state",
+            "Trapping state",
+            "Transient state",
+            "None of the above"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Which of the following is not a function of future workload?",
+        "answers": [
+            "The natural evolution of the existing workload",
+            "Deployment of new application",
+            "Changes in the homepage",
+            "Changes in user behavior"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "The last mystery novel of a famous writer becomes a best seller all of a sudden. You are being suggested to purchase the book in an online shopping site even when you are not searching for any mystery books. Which kind of recommendation approach might the online shopping site be using?",
+        "answers": [
+            "Content based",
+            "Popularity based",
+            "Reputation based",
+            "Social network based"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "User based collaborative filtering considers —",
+        "answers": [
+            "Co-occurrence of items brought together",
+            "Degree of relevance between user and item",
+            "Preferences of similar users",
+            "Features of the item"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "Which information of the following is used by content based recommendation systems?",
+        "answers": [
+            "Features of items and individual user preferences",
+            "User demography and Features of item only",
+            "Features of item only",
+            "Individual user preferences only"
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "The following can be used for modeling performance of a web server",
+        "answers": [
+            "Visual inspection of data",
+            "Forecasting models",
+            "Workload characterization models",
+            "All the above"
+        ],
+        "correct": 3,
+        "points": 1
+    },
+    {
+        "question": "Migration rate from the state Shopping Cart indicates",
+        "answers": [
+            "Fraction of the people who left the site without buying after keeping few items in the shopping cart.",
+            "Fraction of the people used shopping cart and bought few items.",
+            "Number of people who visited shopping cart after migrating from some other site.",
+            "Number of the people who left the site without buying after keeping few items in the shopping cart."
+        ],
+        "correct": 0,
+        "points": 1
+    },
+    {
+        "question": "Which of the following is not a parameter for performance modeling of a website?",
+        "answers": [
+            "Waiting times",
+            "Type of server",
+            "Response time",
+            "Facility utilization"
+        ],
+        "correct": 1,
+        "points": 1
+    },
+    {
+        "question": "Which kind of recommender system suggests the items based on the items, the user has purchased in the past?",
+        "answers": [
+            "Popularity based",
+            "Content based",
+            "Association based",
+            "Collaborative filtering"
+        ],
+        "correct": 2,
+        "points": 1
+    },
+    {
+        "question": "Which of the following can be used for user profiling in a content based recommender system?",
+        "answers": [
+            "Logistic regression",
+            "Forward propagation neural networks",
+            "Decision Tree induction algorithm",
+            "All of the above"
+        ],
+        "correct": 3,
+        "points": 1
     }
 ]
