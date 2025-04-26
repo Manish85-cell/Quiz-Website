@@ -1307,5 +1307,1493 @@
         ],
         "correct": 2,
         "points": 1
+    },
+    {
+        "question": "Cost of transaction is an important ______ aspect of electronic payment system",
+        "answers": [
+            "Technological",
+            "Economic",
+            "Social",
+            "Regulatory"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slide 6"
+    },
+    {
+        "question": "Visa or MasterCards are examples of ______ payment system.",
+        "answers": [
+            "Open loop payment acceptance and processing credit card system",
+            "Closed loop payment acceptance and processing credit card system",
+            "Three loop payment acceptance and processing debit card system",
+            "Mixed loop payment acceptance and processing debit card system"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer to slide 12"
+    },
+    {
+        "question": "During EDI transaction, outbound translation stage converts an electronic business documents to a common ______ data format.",
+        "answers": [
+            "ASCII",
+            "AS I",
+            "XML",
+            "EDI"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 58"
+    },
+    {
+        "question": "REST API can provide B2B Interoperability at ______ level",
+        "answers": [
+            "Communication level",
+            "Content level",
+            "Process level",
+            "None of the above"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Refer to slide 83"
+    },
+    {
+        "question": "The tags in an XML document are",
+        "answers": [
+            "Same as that of HTML",
+            "Defined by the user",
+            "Defined by ISO",
+            "None of the above"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slide 73 and 74"
+    },
+    {
+        "question": "REST API can return data in ______ format",
+        "answers": [
+            "XML",
+            "EDI",
+            "ASCII",
+            "MIME"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer to slide 88"
+    },
+    {
+        "question": "Crypto currencies like Bitcoin are based on ______ transaction",
+        "answers": [
+            "Peer to Peer",
+            "Bank mediated",
+            "Credit card company mediated",
+            "Cashier mediated"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer to slide 22"
+    },
+    {
+        "question": "A typical wallet software will not have which of the following information",
+        "answers": [
+            "Credit card numbers",
+            "Electronic cash",
+            "Owner identification and contact information",
+            "Bank authorization letter"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 19"
+    },
+    {
+        "question": "Which of the following is not true for Anonymous Electronic Money",
+        "answers": [
+            "Serial number created by the customer",
+            "Uses a cryptographic operation capped Blinding",
+            "Not Signed by the bank",
+            "All of the above are true"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Refer to slide 21"
+    },
+    {
+        "question": "Which of the following is a concern for cloud computing.",
+        "answers": [
+            "Software Cost",
+            "Storage cost",
+            "Internet connectivity",
+            "All of the above"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Refer to slide 118"
+    },
+    {
+        "question": "In a typical RFID setup, the tag contains",
+        "answers": [
+            "Product code",
+            "Product description",
+            "Product description and location in the supply chain",
+            "Product description and location in the warehouse"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer to slide 18"
+    },
+    {
+        "question": "Use of RFID is possible in the supply chain because of",
+        "answers": [
+            "EPC Tags",
+            "EPC Middleware",
+            "Object Naming Service and EPC Information Services",
+            "All of the above"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 20"
+    },
+    {
+        "question": "Which segment of GPS system has to have a receiver?",
+        "answers": [
+            "The space segment",
+            "The user segments",
+            "The control segments",
+            "None of the above"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slide 40"
+    },
+    {
+        "question": "RFID reader belongs to which layer of IoT architecture.",
+        "answers": [
+            "Integrated Application",
+            "Information Processing",
+            "Network construction",
+            "Sensing and identification"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 77"
+    },
+    {
+        "question": "Active RFID Tag type have the highest read range. However, these tags are not suitable for item level RFID because",
+        "answers": [
+            "They have battery",
+            "They are bulky",
+            "They are expensive",
+            "All of the above"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 14"
+    },
+    {
+        "question": "Which of the following situation may distort the RFID data?",
+        "answers": [
+            "Interference among readers",
+            "metalized packaging",
+            "Electromagnetic interferences by other machines and electric motors",
+            "All of the above"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slides 31 to 34"
+    },
+    {
+        "question": "A milk van of with 10000 Litres capacity is deployed to collect milk between 6 AM to 11 AM . Depending on the previous days milk collection from different collection points a route chart is prepared considering a ______ Vehicle Routing Problem and given to the driver.",
+        "answers": [
+            "Vehicle Routing Problem with Time Windows",
+            "Capacitated Vehicle Routing Problem with Time Windows",
+            "Periodic Vehicle Routing Problem",
+            "Capacitated Vehicle Routing Problem"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slides 55 and 56"
+    },
+    {
+        "question": "An IoT device installed in an refrigerated container sends the temperature, humidity and CO2 level every 5 minutes. Which \"V\" of big data concept most appropriately describe this data.",
+        "answers": [
+            "Velocity",
+            "Variety",
+            "Veracity",
+            "None of the above"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer to slide 102"
+    },
+    {
+        "question": "Data Mining, Text Mining, Web/Media Mining and Forecasting are the techniques for ______ type of analytics",
+        "answers": [
+            "Descriptive",
+            "Predictive",
+            "Prescriptive",
+            "Deceptive"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slide 96"
+    },
+    {
+        "question": "You are supposed to get some delivery from Amazon. You would like to know where the packet is right now. Which of the following word best explains the situation",
+        "answers": [
+            "Tracking",
+            "Tracing",
+            "Planning",
+            "All of the above"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer to slide 38"
+    },
+    {
+        "question": "Which of the following fields in an access log entry can show a trace of Web Crawler activity in a website?",
+        "answers": [
+            "IP address",
+            "User name",
+            "Referred",
+            "Agent"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 25."
+    },
+    {
+        "question": "Some of the HTTP request for a web server are not recorded in the access log because they are served from",
+        "answers": [
+            "Cache",
+            "Old Session",
+            "Application server",
+            "Such a thing cannot happen"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer to slide 33."
+    },
+    {
+        "question": "The name of the URL from which an HTTP request originates is called:",
+        "answers": [
+            "Tracker",
+            "Agent",
+            "Coder",
+            "Referrer"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 21."
+    },
+    {
+        "question": "Which of the following is data cleaning activity during access log analysis",
+        "answers": [
+            "remove irrelevant references and fields in server logs",
+            "remove references due to spider navigation",
+            "add missing references due to caching",
+            "All of the above"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slide 31."
+    },
+    {
+        "question": "Sessionization is an essential step in Access Log mining. Here, a session means",
+        "answers": [
+            "A set of web pages downloaded by a web crawler not listed in robot.txt",
+            "All the hidden pages in a website to which the users have never accessed",
+            "A set of webpages a user browses from the moment she enters the site until the moment she leaves it",
+            "All the documents such as pdf, jpg etc., which are not of type HTML"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Refer to slide 33."
+    },
+    {
+        "question": "Which of the following information is necessary in a typical path completion algorithm",
+        "answers": [
+            "Effective path completion requires extensive knowledge of the link structure within the site",
+            "Referrer information in server logs can also be used in disambiguating the inferred paths",
+            "Semantic domain concepts, to better understand the process of navigation",
+            "All the above"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 37."
+    },
+    {
+        "question": "The simplest of analysis that can be made from a preprocessed access log is",
+        "answers": [
+            "Static Aggregation and Statistics",
+            "Session Analysis",
+            "OLAP",
+            "Data Mining"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer to slide number 46."
+    },
+    {
+        "question": "Which of the following method can generate rules for finding Co-occurrence of web pages",
+        "answers": [
+            "Association rule mining",
+            "Sessionization",
+            "Path completion",
+            "None of these"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer to slide number 56."
+    },
+    {
+        "question": "Grouping of website users with similar interest can be obtained by",
+        "answers": [
+            "Clustering the user IDs",
+            "Clustering the sessions",
+            "Clustering the webpages",
+            "Clustering the protocols"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slide number 82."
+    },
+    {
+        "question": "The static part of a user behavior model graph can be found from",
+        "answers": [
+            "Access log",
+            "Error log",
+            "Hit log",
+            "Site map"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide number 69."
+    },
+    {
+        "question": "Which of the following recommender system does not consider other users transactions while generating recommendation:",
+        "answers": [
+            "Content based",
+            "Popularity based",
+            "Reputation based",
+            "Association based"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer to slide 13 of the Recommender Systems ppt."
+    },
+    {
+        "question": "Which of the following statement is not true in the context of transition probability matrix of a Customer Behavior Model Graph (CBMG)",
+        "answers": [
+            "Each entry has a value between 0 to 1",
+            "The row sum is equal to 1",
+            "The column sums are 1",
+            "The probability of going from entry state to exit state is zero."
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Refer to slide 78 of the Weblog Analytics And Capacity Planning ppt."
+    },
+    {
+        "question": "Maximum throughput of a computer system is same as that of the throughput of the",
+        "answers": [
+            "Processor",
+            "Input-Output device",
+            "Memory",
+            "Any resource which is a bottleneck, not limited to the above"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 93 of the Weblog Analytics And Capacity Planning ppt."
+    },
+    {
+        "question": "Which of the following best describes defining \"quality of service\" of an information infrastructure",
+        "answers": [
+            "Deciding on site availability",
+            "Finding the cost of unavailability",
+            "Determining single point failures",
+            "All of the above"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 92 of the Weblog Analytics And Capacity Planning ppt."
+    },
+    {
+        "question": "Which of the following metrics can not be derived from Customer Behavior Model Graph (CBMG)",
+        "answers": [
+            "Graph navigation time matrix",
+            "Mean holding time matrix",
+            "Transition probability matrix",
+            "Average session length"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer to slide 82 of the Weblog Analytics And Capacity Planning ppt."
+    },
+    {
+        "question": "Which of the following is not a step in e-business infrastructure capacity planning",
+        "answers": [
+            "Workload forecasting",
+            "User activity prediction",
+            "Development of Performance Models",
+            "Obtaining Performance Parameters"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slide 9 of the Weblog Analytics And Capacity Planning ppt 2."
+    },
+    {
+        "question": "In a content based news recommender system, the item features derived from the text documents are called",
+        "answers": [
+            "Extrinsic Features",
+            "Intrinsic Features",
+            "Derived features",
+            "Latent features"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slide 22 of the Recommender Systems ppt."
+    },
+    {
+        "question": "Which of the following data is not used while building a user profile in a content based recommender system.",
+        "answers": [
+            "User purchase history",
+            "Item features",
+            "User preference rating",
+            "Similar users' purchase history"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 13 of the Recommender Systems ppt."
+    },
+    {
+        "question": "Every customer behavior model graph (CBMG) has an exit state. It is also called the",
+        "answers": [
+            "Stable state",
+            "Trapping state",
+            "Transient state",
+            "None of the above."
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slide 80 of the Weblog Analytics And Capacity Planning ppt."
+    },
+    {
+        "question": "Which of the following is not a function of future workload?",
+        "answers": [
+            "The natural evolution of the existing workload",
+            "Deployment of new application",
+            "Changes in the homepage",
+            "Changes in user behavior"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Refer to slide 89 of the Weblog Analytics And Capacity Planning ppt."
+    },
+    {
+        "question": "E-Commerce is a driver of dynamic pricing because",
+        "answers": [
+            "A buyer can get instant price comparisons",
+            "A buyer can instantly search for the substitutes that fits the budget",
+            "A seller can monitor customer behavior and instantly tailor customized price",
+            "All of the above"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 61 and 62"
+    },
+    {
+        "question": "The conditional probability that a transaction having X also contains Y is called",
+        "answers": [
+            "Support",
+            "Confidence",
+            "Mutual Information",
+            "Association"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slide 31"
+    },
+    {
+        "question": "A first time registered user is searching for an item in an online store. Which of the following recommender system will be most appropriate for him.",
+        "answers": [
+            "Content based",
+            "Collaborative filtering based",
+            "Demographic based",
+            "None of the above"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Refer to slide 55 of week 10 and slide 42 of week 11."
+    },
+    {
+        "question": "Mega fashion sale by Amazon is an example of",
+        "answers": [
+            "Price Differentiation",
+            "Spacial Price Dispersion",
+            "Temporal Price Dispersion",
+            "Auction"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Refer to slide 64"
+    },
+    {
+        "question": "Dimensionality reduction becomes essential for the Recommender System, when",
+        "answers": [
+            "The data set has latent features",
+            "The data set is derived by the fusion of many data sources",
+            "The data set has large number of records",
+            "The data set is of very large dimension"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 5"
+    },
+    {
+        "question": "Item-item based collaborative filtering takes less time because",
+        "answers": [
+            "The item-item similarity matrix is precalculated offline",
+            "The user-user similarity matrix is precalculated offline",
+            "The user-item similarity matrix is precalculated offline",
+            "It is an completely offline algorithm"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer to slide 4"
+    },
+    {
+        "question": "Apriori Principle is used in",
+        "answers": [
+            "Collaborative filtering-based recommender system",
+            "Content-based recommender system",
+            "Association rule-based recommender system",
+            "Popularity based recommender system"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Refer to slide 33"
+    },
+    {
+        "question": "Volume Discount is given, when you buy certain item in bulk. It is an example of -",
+        "answers": [
+            "First degree price dispersion",
+            "Second Degree price dispersion",
+            "Third degree price dispersion",
+            "None of the above"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slide 65"
+    },
+    {
+        "question": "Cold start problem is a situation in which the system fails to give a first time recommendation due to lack of data regarding a specific user or item. It is not observed in",
+        "answers": [
+            "Collaborative filtering based recommender system",
+            "Content based recommender system",
+            "Popularity based",
+            "Association rule based"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Refer to week 10, slide 51"
+    },
+    {
+        "question": "Dutch auction follows ______ bidding rule and English auction follows ______ bidding rule.",
+        "answers": [
+            "Descending, Ascending",
+            "Ascending, descending",
+            "Descending, Descending",
+            "Ascending, Ascending"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer to slide 77"
+    },
+    {
+        "question": "Which of the following auction design tries to maximize social surplus?",
+        "answers": [
+            "Optimal",
+            "Efficient",
+            "Reliable",
+            "Resilient"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slide 8"
+    },
+    {
+        "question": "In the context of reverse auction, reservation price indicates",
+        "answers": [
+            "The price above which the bids will not be accepted",
+            "The price above which the bids will be accepted",
+            "The price below which the bids will not be accepted",
+            "The price below which the bids will be accepted"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Refer to slide 24"
+    },
+    {
+        "question": "If price and quality characteristics together are used to determine the winner, it is called",
+        "answers": [
+            "Multi attribute auction",
+            "Double auction",
+            "Forward auction",
+            "Backward auction"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer to slide 24"
+    },
+    {
+        "question": "Which of the following situation in online auction is a fraud but not cheating.",
+        "answers": [
+            "Bidding ring",
+            "Triangulation",
+            "Shill bidding",
+            "Multiple bidding"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slides 40 and 41"
+    },
+    {
+        "question": "A buyer is trying to sell 100 units of certain item using a multi-unit auction where divisible bids are allowed. The (quantity, price) bid pairs are (30, 10), (20, 20), (50, 30), (20, 25). All together how many units will be sold?",
+        "answers": [
+            "85",
+            "60",
+            "120",
+            "100"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 29"
+    },
+    {
+        "question": "In the context of optimal auction mechanism, which of the following strategy contribute towards improving expected revenue?",
+        "answers": [
+            "Increasing the number of bidders",
+            "Increasing the reservation price",
+            "Increasing the sales volume",
+            "None of the above"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer to slide 13"
+    },
+    {
+        "question": "Which of the following is an example of efficient auction",
+        "answers": [
+            "First price auction",
+            "Second price auction",
+            "Double Auction",
+            "Combinatorial Auction"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slide 9"
+    },
+    {
+        "question": "Increasing the number of bidders in a reverse auction can",
+        "answers": [
+            "Increase the price",
+            "Decrease the price",
+            "Keep the price unchanged",
+            "Not affect the price"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slide 25"
+    },
+    {
+        "question": "The reverse auction is a ______ type of e-business transaction",
+        "answers": [
+            "C2B",
+            "B2C",
+            "B2B",
+            "C2C"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Refer to slide 37"
+    },
+    {
+        "question": "Auctions with multiple sellers and multiple buyers are called",
+        "answers": [
+            "First price auction",
+            "Double Auction",
+            "Second price Auction",
+            "Combinatorial Auction"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slide 31"
+    },
+    {
+        "question": "Internet has become an enabler of Customized Mass Marketing. Which of the following factors is not correct for the following statement.",
+        "answers": [
+            "Reduced cost",
+            "Reduced time",
+            "Improved supply chain",
+            "Higher outreach"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Improved supply chain is not a direct result of internet-enabled mass marketing. (Refer slide 8)"
+    },
+    {
+        "question": "In AIDA model of marketing communication which of the following stage represents the act of \"convincing the customer that product best suits to their need\"",
+        "answers": [
+            "Attention",
+            "Interest",
+            "Desire",
+            "Action"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Desire is the stage where the customer is convinced the product suits their need. (Refer slide 5)"
+    },
+    {
+        "question": "Which one of the following is NOT a part of e-marketing?",
+        "answers": [
+            "Interactive marketing",
+            "Sales force automation",
+            "Customer Relationship Management",
+            "After sales service"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "After sales service is not a direct part of e-marketing. (Refer slide 16)"
+    },
+    {
+        "question": "Which is the correct order of major supply chain cycles",
+        "answers": [
+            "Customer Buying Cycle, Manufacturing Cycle, Procurement Cycle, Replenishment Cycle",
+            "Customer Buying Cycle, Replenishment Cycle, Manufacturing Cycle, Procurement Cycle",
+            "Replenishment Cycle, Procurement Cycle, Manufacturing Cycle, Customer Buying Cycle",
+            "Manufacturing Cycle, Procurement Cycle, Customer Buying Cycle, Replenishment Cycle"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "The correct order is Customer Buying Cycle, Replenishment Cycle, Manufacturing Cycle, Procurement Cycle. (Refer slide 29)"
+    },
+    {
+        "question": "Supply Chain Operations Reference (SCOR) Model has four major steps: Source, Make, Deliver and plan. Which one of this has to be carried out synchronously along with the rest",
+        "answers": [
+            "Make",
+            "Plan",
+            "Deliver",
+            "Source"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Plan is carried out synchronously with other steps. (Refer slide 30)"
+    },
+    {
+        "question": "Which one of the following is a functional area of Supply Chain Management",
+        "answers": [
+            "Strategic Sourcing and Procurement",
+            "Forecast and Demand Planning",
+            "Customer Order Fulfilment/Service",
+            "All of the above"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "All are functional areas of SCM. (Refer slide 40)"
+    },
+    {
+        "question": "I bought a printer and install it. While doing so, I had to download the driver software. The company's distribution channel is",
+        "answers": [
+            "Physical",
+            "Digital",
+            "Hybrid",
+            "Dual"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Hybrid, as both physical and digital channels are used. (Refer slide 100)"
+    },
+    {
+        "question": "For exchanging documents between the ERP systems of two organization, both the organizations discussed and agreed to follow certain Electronic Data Interchange (EDI) format. This is an example of",
+        "answers": [
+            "How technical interoperability can happen supply chain integration strategy",
+            "How supply chain interoperability can be achieved without integration",
+            "How Supply chain interoperability can be a precursor of supply chain integration",
+            "None of the above"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "This is an example of technical interoperability. (Refer slide 50)"
+    },
+    {
+        "question": "Receiving, put-away, replenishment, picking are the functionalities of a",
+        "answers": [
+            "ERP",
+            "Transport management system",
+            "Warehouse management system",
+            "E-Procurement"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "These are warehouse management system functionalities. (Refer slide 77)"
+    },
+    {
+        "question": "Fleet Management is a _______ transportation functionality",
+        "answers": [
+            "Strategic",
+            "Tactical",
+            "Operational",
+            "Collaborative"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Fleet management is a tactical transportation functionality. (Refer slide 87)"
+    },
+    {
+        "question": "Scalability of an information infrastructure is ______",
+        "answers": [
+            "Its response tome",
+            "Its mean time to failure",
+            "Its ability to handle the waves of demand by scaling up or scaling out",
+            "Its throughput"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Scalability is the ability to handle demand by scaling up or out. (Refer to slide 5)"
+    },
+    {
+        "question": "If you request for some data from a website. Following sequence of server accesses takes place for this purpose to send a response.",
+        "answers": [
+            "Web server, database server, application server, web server",
+            "Database server, application server, web server, application server",
+            "Web server, application server, database server, application server, web server",
+            "Application server, database server, web server, application server"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "The sequence is web server, application server, database server, application server, web server. (Refer to slide 8)"
+    },
+    {
+        "question": "The organization responsible for mapping a domain name to IP address is",
+        "answers": [
+            "IEEE",
+            "ICANN",
+            "ISO",
+            "IETF"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "ICANN is responsible for domain name to IP mapping. (Refer to slide 27)"
+    },
+    {
+        "question": "Dynamic effect in a webpage at clients end can be generated using ______",
+        "answers": [
+            "PHP",
+            "ASP",
+            "Java script",
+            "None of the above"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "JavaScript generates dynamic effects at client end. (Refer to slide 33)"
+    },
+    {
+        "question": "It is possible for a website to remember your last browsing history even if your are not a registered visitor. Considering the fact that HTTP is a forgetful protocol, such a thing is possible because of ______",
+        "answers": [
+            "Cookies",
+            "IP addresses",
+            "HTML",
+            "TCP"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Cookies enable remembering browsing history. (Refer to slide 34)"
+    },
+    {
+        "question": "Which of the following two layers are not necessary in a router",
+        "answers": [
+            "TCP and IP",
+            "TCP and Application",
+            "TCP and Datalink",
+            "IP and Datalink"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "TCP and Application layers are not needed in a router. (Refer to slide 12)"
+    },
+    {
+        "question": "Transceiver and repeaters work in ______",
+        "answers": [
+            "Transportation layer",
+            "Network layer",
+            "Link layer",
+            "Physical layer"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "They operate at the physical layer. (Refer to slide 56)"
+    },
+    {
+        "question": "Which of the following execution time measure includes \"input-output time\"",
+        "answers": [
+            "Response time",
+            "CPU time",
+            "Operating System Time",
+            "Disk access time"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Response time includes input-output time. (Refer to slide 66)"
+    },
+    {
+        "question": "Which of the following sequence shows the correct order of memory in terms of increasing latency",
+        "answers": [
+            "Disk, Register, RAM, cache",
+            "Register, cache, RAM, Disk",
+            "cache, Register, RAM, Disk",
+            "RAM, Register, cache, Disk"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Register, cache, RAM, Disk is in increasing order of latency. (Refer to slide 70)"
+    },
+    {
+        "question": "Which of the following network storage requires a dedicated data communication network?",
+        "answers": [
+            "NAS",
+            "SAN",
+            "DAS",
+            "All of the above"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "SAN requires a dedicated network. (Refer to slide 77)"
+    },
+    {
+        "question": "Which of the following best describes the security category \"Confidentiality\"?",
+        "answers": [
+            "preventing data from being modified by an attacker. Transmitting information over the Internet",
+            "preventing the sender of a message from denying having sent it",
+            "process of examining transactions",
+            "protecting the content of messages or data transmitted over the Internet from the unauthorized people"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Confidentiality is protecting content from unauthorized people. (Refer to slide 4)"
+    },
+    {
+        "question": "Along with password and captcha, the banks also send an OTP to login into your account. The purpose here is to add an extra layer of",
+        "answers": [
+            "Authentication",
+            "Confidentiality",
+            "Integrity",
+            "Availability"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "OTP adds an extra layer of authentication. (Refer to slide 5)"
+    },
+    {
+        "question": "Which of the following attack changes the destination IP address in the IP header of the data packets",
+        "answers": [
+            "Sniffing",
+            "IP Spoofing",
+            "Denial of Service",
+            "Cryptography"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "IP Spoofing changes the destination IP. (Refer to slide 11)"
+    },
+    {
+        "question": "Which of the following is not a symmetric key cryptography algorithm",
+        "answers": [
+            "DES",
+            "TDES",
+            "RSA",
+            "IDEA"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "RSA is asymmetric. (Refer to slide 25 and 26)"
+    },
+    {
+        "question": "Data integrity in digital signature is achieved through",
+        "answers": [
+            "Public key",
+            "Private key",
+            "Encryption",
+            "Hash function"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Hash function ensures data integrity. (Refer to slide 34)"
+    },
+    {
+        "question": "For any country ______ brings the security foundation for online business transactions",
+        "answers": [
+            "Digital signature",
+            "Controller of Certifying Authority",
+            "Public Key Infrastructure",
+            "TLS protocol"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Public Key Infrastructure is the foundation. (Refer to slide 56)"
+    },
+    {
+        "question": "During a TLS transaction the delays in round trip transmission, data access from disk, server side processing time, client processing side are 0.001 ms, 0.0002 ms, 0.1 ms and 0.5 ms respectively. Which of the following is the bottleneck element",
+        "answers": [
+            "Network",
+            "Disk",
+            "Client",
+            "Server"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Client processing is the bottleneck. (Refer to slide 80 and 81)"
+    },
+    {
+        "question": "A cryptographic accelerator hardware is a ______ responsible for improving execution time of cryptography algorithms",
+        "answers": [
+            "Hardware",
+            "Software",
+            "Network device",
+            "A combination of all three"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "It is a hardware device. (Refer to slide 90)"
+    },
+    {
+        "question": "Strength of a cryptography algorithm depends on",
+        "answers": [
+            "Network delay",
+            "Data size",
+            "Key size",
+            "Server response time"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Key size determines cryptographic strength. (Refer to slide 27)"
+    },
+    {
+        "question": "Client Server Interaction Diagrams are the tools to graphically show the detailed steps involved in any internet transactions. The nodes in the diagram represent the ______ and the arcs represent the ______.",
+        "answers": [
+            "Client, Server",
+            "Message, Server/Client",
+            "Client/server, Message",
+            "Routers, Data packets"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Nodes are client/server, arcs are messages. (Refer to slide 69)"
+    },
+    {
+        "question": "ABC company is using cloud-based services for handling customer care activities using different modes of communication such as phone, email and chatbots. These crucial activities can be termed as a ______ transaction.",
+        "answers": [
+            "E-Business",
+            "E-commerce",
+            "Both a) and b)",
+            "None of the above"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Customer care activities are categorized as web-based services which comes under e-business (Refer to Slide 21)"
+    },
+    {
+        "question": "Which of the following statements is NOT TRUE for Commerce?",
+        "answers": [
+            "All commercial activities are synonymous with business activity",
+            "Commerce is a subset of business",
+            "It is the act of buying and selling, especially on a large scale",
+            "None of the above"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer slide 18"
+    },
+    {
+        "question": "Which of the following options is NOT TRUE for Customer Delivered Value?",
+        "answers": [
+            "It is the highest possible profit for the company.",
+            "It is the difference between the total customer value and total customer cost",
+            "It can be the bunch of benefits customers expect from a given service",
+            "None of the above"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Prioritizes on customer value rather than maximizing profit(Refer to Slide 14)"
+    },
+    {
+        "question": "Payroll processing is an important part of the Human Resource Management component of Enterprise Resource Planning (ERP) software. Payroll processing is an example of:",
+        "answers": [
+            "Decision Support Systems",
+            "Transaction Processing Systems",
+            "Management Information Systems",
+            "Executive Support System"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Payroll for the employees in the organisation usually happens in the form of transactions in ERP every month. This regular activity does not involve any decision making. Hence, it is a transaction processing activity."
+    },
+    {
+        "question": "eProcurement by a business organization falls under the category of ______ type of transaction",
+        "answers": [
+            "B2B",
+            "B2C",
+            "C 2 B",
+            "C 2 C"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "A common example is the case of Tata Steel(Refer to Slide 70-74)"
+    },
+    {
+        "question": "Reverse Auction is to be adopted as an e-procurement mode when the Buy volume and the Critical to the cost of quality factor are, respectively-",
+        "answers": [
+            "High-High",
+            "Low-Low",
+            "Low-High",
+            "High-Low"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "(Refer to Slide 76)"
+    },
+    {
+        "question": "Metered subscriptions allow subscribers to pay after usage based on the number of units consumed. Which of the following can be considered a meter subscription:",
+        "answers": [
+            "Netflix",
+            "Times of India Subscription",
+            "Uber service",
+            "Swiggy"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Uber is the only one among the three options which charges money from the customer after the services have been availed(Refer to Slide 65)"
+    },
+    {
+        "question": "LinkedIn is an example of a community model for",
+        "answers": [
+            "Open Source Development",
+            "Public Broadcasting",
+            "Social Networking",
+            "Job portal"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "(Refer to Slide 63)"
+    },
+    {
+        "question": "In ITC's e-Choupal model, the processor no longer needs to go through layers of intermediaries. What was the impact on the transaction costs?",
+        "answers": [
+            "Increased",
+            "Decreased",
+            "Unchanged",
+            "Cannot be said with certainty"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "(Refer to Slide 97)"
+    },
+    {
+        "question": "Which of the statements is false with respect to the Brokerage model?",
+        "answers": [
+            "It facilitates transactions between buyers and sellers",
+            "It usually charges some fee for its services",
+            "It is applicable only for B2B kind of transactions",
+            "None of the above"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "(Refer to Slide 45)"
+    },
+    {
+        "question": "Which of the following business processes is not part of the \"Sales and Marketing\" functional area?",
+        "answers": [
+            "Identifying Customers",
+            "Making customers aware of the product",
+            "Creating financial statements",
+            "Selling the product"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Refer to slide 7."
+    },
+    {
+        "question": "Satyajit is a data scientist working at HCL Technologies. Which level of management does he represent?",
+        "answers": [
+            "Senior management",
+            "Middle management",
+            "Operational management",
+            "All of the above"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slide 14."
+    },
+    {
+        "question": "Sales Analysis, production performance, and cost trend reporting systems are examples of which types of information systems?",
+        "answers": [
+            "Transaction Processing Systems",
+            "Decision Support Systems",
+            "Management Information Systems",
+            "Executive Support System"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Refer to slide 50."
+    },
+    {
+        "question": "Which is NOT TRUE for executive support systems?",
+        "answers": [
+            "It supports Operational Management",
+            "It deals with the firm's overall financial performance",
+            "It incorporates data about new tax laws or competitors, etc.",
+            "All of the above"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Executive support systems are meant for the top management only. It is not for Operations Management layer. (Refer to slide 62)."
+    },
+    {
+        "question": "Arun is a credit manager at HDFC Bank who was provided with a report containing information only on customers who have exceeded their credit limits for the month of December 2022. Which of the following options best describes the type of report?",
+        "answers": [
+            "Periodic Scheduled Report",
+            "Exception Report",
+            "Demand Report",
+            "Push Report"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Exceeding the credit limit is an exceptional condition.(Refer to slide 54)."
+    },
+    {
+        "question": "The top management of an established company is looking to expand their business into new domains in the next ten years. The novel and informative decisions made by the company can be categorised into which of the following types?",
+        "answers": [
+            "Structured Decisions",
+            "Unstructured Decisions",
+            "Semi-Structured Decisions",
+            "None of the above"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slide 77."
+    },
+    {
+        "question": "Which of the following is the reason for ERP system failure?",
+        "answers": [
+            "Underestimating the complexity of the planning, development, and training",
+            "Involving the third party in the conversion process",
+            "Involving affected employees in the planning and development phases",
+            "Business process reengineering"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer to slide 112."
+    },
+    {
+        "question": "DMAIC stands for",
+        "answers": [
+            "Design, Manufacture, Analyze, Improve and Control",
+            "Define, Measure, Analyze, Implement and Control",
+            "Define, Measure, Analyze, Improve and Control",
+            "None of the above"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Refer to 19."
+    },
+    {
+        "question": "Which one of the following is one of the components of the Five \"V\"s of Big Data?",
+        "answers": [
+            "Volume, Visibility, Variety, Variability, Value",
+            "Virtual Reality, Velocity, Variety, Variability, Value",
+            "Volume, Velocity, Variety, Variability, Value",
+            "None of the above"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Refer to slide 96"
+    },
+    {
+        "question": "One of the differences between a Decision Support System (DSS) and a Management Information System (MIS) is-",
+        "answers": [
+            "The information format is fixed in MIS, whereas in the case of DSS information format can be flexible",
+            "Information form and frequency are not periodic in MIS, but it is so in DSS",
+            "DSS provides information about the performance of the organisation, but MIS does not",
+            "Analytical models are not used in DSS but are extensively used in MIS"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Information in MIS is prespecified and available in fixed format, whereas in DSS it is ad hoc, flexible and adaptable format. (Refer to slide 90)."
+    },
+    {
+        "question": "The data input for Management Information System (MIS) is obtained from",
+        "answers": [
+            "Executive Support System (ESS)",
+            "Transaction Processing System (TPS)",
+            "Decision Support System (DSS)",
+            "None of the above"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "MIS provides reports on the firm's current performance, based on data from TPS.(Refer to slide 53)."
+    },
+    {
+        "question": "Determining special offers to customers is a decision taken by ______",
+        "answers": [
+            "Senior Management",
+            "Operational Management",
+            "Middle Management",
+            "None of the above"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Operational management is responsible for monitoring the daily activities of the business.(Refer to slide 15)."
+    },
+    {
+        "question": "Which of the following is the correct hierarchical structure for refining the raw data?",
+        "answers": [
+            "Data - Knowledge - Wisdom - Information",
+            "Knowledge - Information - Data - Wisdom",
+            "Information - Knowledge - Wisdom - Data",
+            "Data - Information - Knowledge - Wisdom"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 25."
+    },
+    {
+        "question": "Which type of information system allows managers to monitor the status of operations and relations with the external environment?",
+        "answers": [
+            "MIS",
+            "DSS",
+            "TPS",
+            "ESS"
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Transaction processing systems allow managers to monitor status of the operations and relations with the external environment.(Refer to slide 49)."
+    },
+    {
+        "question": "The difference between a \"Corporate Website\" and an \"Enterprise Information Portal\" is",
+        "answers": [
+            "While the former is for internal or selected external users, the latter is for the public.",
+            "While the former is for top corporate officials, the latter is for the other employees.",
+            "While the former is for the public, the latter is for internal or selected external users.",
+            "There is no difference. Both provide employees access to a variety of internal and external business applications and services."
+        ],
+        "correct": 2,
+        "points": 2,
+        "explanation": "Refer to slide 4"
+    },
+    {
+        "question": "Which of the following are the benefits of adopting e-procurement in an organization",
+        "answers": [
+            "Shortened order fulfilment cycle",
+            "Lowered inventory levels",
+            "The lowered price paid for goods",
+            "All of the above"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 21."
+    },
+    {
+        "question": "Spend analysis is best described by which of the following statement",
+        "answers": [
+            "The process of identifying factors to increase corporate spending based on historical data",
+            "The process of analyzing expenditure data with the purpose of cost reduction, monitoring and control",
+            "The process of deciding the expenditure limit for the managers at the top, middle and lower levels of the management.",
+            "None of the above"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Refer to slide 35"
+    },
+    {
+        "question": "Which of the following is a part \"Tactical Procurement\" process while adopting e-procurement?",
+        "answers": [
+            "Requisitioning",
+            "Approval workflow",
+            "Supplier enablement",
+            "All of the above"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 27."
+    },
+    {
+        "question": "Which of the following requires a vendor to submit a bid",
+        "answers": [
+            "RFI",
+            "RFQ",
+            "RFP",
+            "RFX"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": ""
+    },
+    {
+        "question": "Legal documents containing the price of the items to be procured and other terms and conditions are called",
+        "answers": [
+            "Bill of materials",
+            "Contracts",
+            "Quotations",
+            "Letter of credit"
+        ],
+        "correct": 1,
+        "points": 2,
+        "explanation": "Contracts are legal documents containing price of the item(s) to be procured, and other terms and conditions. (Refer to slide 50)"
+    },
+    {
+        "question": "In CRM terminology, which of the following is called a customer \"touchpoint\"",
+        "answers": [
+            "E-mail",
+            "Phone",
+            "Website",
+            "All of the above"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 71"
+    },
+    {
+        "question": "Which of the following is an example of external business risk while adopting e-procurement?",
+        "answers": [
+            "Deteriorating buyer-supplier relationship",
+            "Technical failure to connect with supplier-driven e-catalogue",
+            "Ensuring investment from the suppliers in compatible e-procurement technologies",
+            "All of the above indicate external business risk"
+        ],
+        "correct": 3,
+        "points": 2,
+        "explanation": "Refer to slide 62."
+    },
+    {
+        "question": "Selling a better product to a new or an existing customer is called",
+        "answers": [
+            "Up-selling",
+            "Cross-selling",
+            "Direct selling",
+            "Clearance selling"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer to slide 74."
+    },
+    {
+        "question": "Reverse Auction is an example of",
+        "answers": [
+            "Multi-round price discovery",
+            "Single-round price discovery",
+            "Tender-based price discovery",
+            "Collaborative price discovery"
+        ],
+        "correct": 0,
+        "points": 2,
+        "explanation": "Refer to slide 48"
     }
 ]
